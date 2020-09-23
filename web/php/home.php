@@ -35,15 +35,8 @@ if ($t < 10) {
 			<ul class="nav nav-pills nav-stacked">
 				<li><a href="./home.php">Home</a></li>
 				<li class="active"><a href="../html/wk2.html">Assignments</a></li>
-			</ul><br>
-			<div class="input-group">
-				<input type="text" class="form-control" placeholder="Search Site...">
-				<span class="input-group-btn">
-					<button class="btn btn-default" type="button">
-						<span class="glyphicon glyphicon-search"></span>
-					</button>
-				</span>
-			</div>
+</ul><br>
+      </div>
 		</div>
 		<div class="col-sm-9">
 										<br>
