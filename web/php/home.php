@@ -11,7 +11,11 @@
 <script src="../js/wk2.js"></script>
 </head>
 <body>
-<div class="header">
+
+<div class="container-fluid">
+	<div class="row content">
+		<div class="col-sm-3 sidenav">
+    <div class="header">
 <br></div>
 <div id="phpMe">
 <?php 
@@ -27,9 +31,6 @@ if ($t < 10) {
 }
 ?>
 </div><br>
-<div class="container-fluid">
-	<div class="row content">
-		<div class="col-sm-3 sidenav">
 			<h4>Title</h4>
 			<ul class="nav nav-pills nav-stacked">
 				<li><a href="./home.php">Home</a></li>
