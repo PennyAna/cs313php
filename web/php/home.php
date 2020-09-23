@@ -27,7 +27,7 @@ if ($t < 10) {
 <div class="row">
 <div class="col-3 menu">
 <br>
-<a id="pageTwoLink" href="html/wk2.html">Assignments</a>
+<a id="pageTwoLink" href="../html/wk2.html">Assignments</a>
 <br><br>
 <p id="text"></p>
 <div id="">
