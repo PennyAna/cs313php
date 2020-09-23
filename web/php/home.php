@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title></title>
-<link rel="stylesheet" href="css/home.css" type="text/css">
+<link rel="stylesheet" href="css/wk2.css" type="text/css">
 </head>
 <body>
 <div class="header">
@@ -27,7 +27,7 @@ if ($t < 10) {
 <div class="row">
 <div class="col-3 menu">
 <br>
-<a id="pageTwoLink" href="html/home2.html">Assignments</a>
+<a id="pageTwoLink" href="html/wk2.html">Assignments</a>
 <br><br>
 <p id="text"></p>
 <div id="">
@@ -79,7 +79,7 @@ if ($t < 10) {
 <div class="">
 <p>
 <p></div><br></div></div>
-<script src="js/home.js"></script>
+<script src="js/wk2.js"></script>
 <div class="footer"><br>Text Source: </div>
 </body>
 </html>
