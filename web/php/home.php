@@ -34,8 +34,8 @@ if ($t < 10) {
 			<h4>Title</h4>
 			<ul class="nav nav-pills nav-stacked">
 				<li  class="active"><a href="./home.php">Home</a></li>
-				<li><a href="./assignments.html">Assignments</a></li>
-				<li><a href="./teamteach.html">Team Activities</a></li>
+				<li><a href="../html/assignments.html">Assignments</a></li>
+				<li><a href="../html/teamteach.html">Team Activities</a></li>
 </ul><br>
       </div>
 		</div>
