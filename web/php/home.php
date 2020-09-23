@@ -32,8 +32,8 @@ if ($t < 10) {
 		<div class="col-sm-3 sidenav">
 			<h4>Title</h4>
 			<ul class="nav nav-pills nav-stacked">
-				<li><a href="../php/home.php">Home</a></li>
-				<li class="active"><a href="./wk2.html">Assignments</a></li>
+				<li><a href="./home.php">Home</a></li>
+				<li class="active"><a href="../html/wk2.html">Assignments</a></li>
 			</ul><br>
 			<div class="input-group">
 				<input type="text" class="form-control" placeholder="Search Site...">
@@ -54,8 +54,7 @@ if ($t < 10) {
 				</div>
 			</div>
 			<footer class="container-fluid">
-			<div class="footer"><br>Text Source: </div>
+        Text Source: 
 			</footer>
-<script src="js/wk2.js"></script>
 </body>
 </html>
