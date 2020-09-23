@@ -33,8 +33,8 @@ if ($t < 10) {
 </div><br>
 			<h4>Title</h4>
 			<ul class="nav nav-pills nav-stacked">
-				<li><a href="./home.php">Home</a></li>
-				<li class="active"><a href="../html/wk2.html">Assignments</a></li>
+				<li class="active"><a href="./home.php">Home</a></li>
+				<li><a href="../html/wk2.html">Assignments</a></li>
 </ul><br>
       </div>
 		</div>
