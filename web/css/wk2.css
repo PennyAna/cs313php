@@ -20,7 +20,7 @@ footer {
 	background-color: var(--color-dark-alt);
 	color: var(--color-light);
 	padding: 10px;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	bottom: 0px;
 	text-align: center;
