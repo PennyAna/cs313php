@@ -52,3 +52,12 @@ hr {
 	font-weight: bold;
 	font-size: 20px;
 }
+
+h4 {
+	text-align: left;
+	height: 50px;
+	font-family: Bookman;
+	color: var(--color-light-alt);
+	font-weight: bold;
+	font-size: 20px;
+}
