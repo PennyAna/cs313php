@@ -86,6 +86,7 @@ h3 {
 	border-color: #4B1746;
 	border-radius: 8px;
 	text-align: center;
+	position: relative;
 }
 .footer {
 	position: absolute;
@@ -107,7 +108,7 @@ h3 {
 	max-width: 60%;
 	height: auto;
 	float: right;
-	position: relative;
+	position: absolute;
 }
 #assigns {
 	float: left;
