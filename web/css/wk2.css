@@ -42,15 +42,7 @@ body {
 	float: right;
 }
 hr {
-	background-color: var(--color-accent);
-}
-#titlebtn {
-	text-align: left;
-	height: 50px;
-	font-family: Bookman;
-	color: var(--color-light-alt);
-	font-weight: bold;
-	font-size: 20px;
+	background-color: var(--color-dark-alt);
 }
 
 h4 {
@@ -60,4 +52,8 @@ h4 {
 	color: var(--color-dark-alt);
 	font-weight: bold;
 	font-size: 50px;
+}
+#phpMe {
+	padding: 10px;
+	margin: 10px;
 }
