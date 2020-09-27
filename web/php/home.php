@@ -29,7 +29,7 @@
 						}						?>
 					</div>
 					<br>
-				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
+				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-middle">
 				<h3>The Girl with Glasses</h3>
 				<ul class="nav nav-pills nav-stacked">
 					<li  class="active"><a href="./home.php">Home</a></li>
