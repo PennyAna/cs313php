@@ -21,7 +21,7 @@
 					<li><a href="../html/assignments.html">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 				</ul><br>
-				<div id="phpMe" class="align-bottom">
+				<div id="phpMe" class="align-bottom rounded">
 					<?php 
 						date_default_timezone_set('America/Denver');
 						echo "The time is " . date("h:i:a") . ".<br>";
