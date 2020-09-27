@@ -24,12 +24,12 @@
 	}
 	.row.content {
 		height: auto;
+		width: auto;
 	}
 }
 body {
 	background-color: var(--color-light);
 	color: var(--color-dark-alt);
-	height: 100%;
 }
 #google_translate_element {
 	float: right;
