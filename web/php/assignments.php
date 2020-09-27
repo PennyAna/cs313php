@@ -20,7 +20,7 @@
 				<div id="phpMe">
                     <?php 
                         date_default_timezone_set('America/Denver');
-                        echo "The time is " . date("h:i:a") . "(MST).<br>";
+                        echo "The time is " . date("h:i:a") . " (MST).<br>";
                         $t = date("H");						
                         if ($t < 10) {
                             echo "Have a good morning!";
@@ -44,7 +44,7 @@
 			<div class="col-sm-9">
 				<h4><small>Assignments</small></h4>
 				<hr>
-				<div id="innerpage">
+				<div>
 					<ul id="assigns">
 						<li><a href="">Week 3</a></li>
 						<li><a href="">Week 4</a></li>

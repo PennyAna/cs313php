@@ -18,7 +18,7 @@
 				<div id="phpMe">
 					<?php 
 					date_default_timezone_set('America/Denver');
-					echo "The time is " . date("h:i:a") . "(MST).<br>";
+					echo "The time is " . date("h:i:a") . " (MST).<br>";
 					$t = date("H");						
 					if ($t < 10) {
 						echo "Have a good morning!";
