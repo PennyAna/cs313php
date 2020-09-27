@@ -97,3 +97,7 @@ h3 {
 	padding: 20px;
 	border-radius: 8px;
 }
+#delly {
+	max-width: 50%;
+	height: auto;
+}
