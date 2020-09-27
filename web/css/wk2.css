@@ -102,6 +102,7 @@ h3 {
 	max-width: 60%;
 	height: auto;
 	float: right;
+	position: relative;
 }
 #assigns {
 	float: left;
