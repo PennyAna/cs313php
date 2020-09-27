@@ -22,7 +22,7 @@
 						<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 					</ul><br>
 				</div>
-				<div id="phpMe">
+				<div id="phpMe" class="align-text-bottom">
 						<?php 
 							date_default_timezone_set('America/Denver');
 							echo "The time is " . date("h:i:a") . ".<br>";
