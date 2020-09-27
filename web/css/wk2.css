@@ -64,6 +64,7 @@ h4 {
 #phpMe {
 	background-color: #CB9CF2;
 	color: var(--color-dark);
+	border-radius: 20px;
 }
 h3 {
 	vertical-align: middle;
