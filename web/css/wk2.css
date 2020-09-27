@@ -7,6 +7,11 @@
 	--color-light-alt: #E09F7D; /*antique brass*/
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 .row.content {
 	height: 1500px;
 	/* margin: 20px; */
@@ -35,6 +40,7 @@ body {
 	background-color: var(--color-light);
 	color: var(--color-dark-alt);
 	font-family: Bookman;
+	margin-bottom: 30px;
 }
 #google_translate_element {
 	float: right;
@@ -69,6 +75,15 @@ h3 {
 .img-thumbnail {
 	max-width: 80%;
 	height: auto;
-	padding: 20px;
+	/* padding: 20px; */
 	margin: 20px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #4B1746;
+	color: #CB9CF2;
 }
