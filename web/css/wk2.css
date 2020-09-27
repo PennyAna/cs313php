@@ -17,7 +17,7 @@
 	width: 20%;
 	color: var(--color-light);
 	padding: 20px;
-	margin: 20px;
+	/* margin: 20px; */
 }
 
 @media screen and (max-width: 767px) {
