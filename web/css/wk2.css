@@ -62,4 +62,6 @@ h3 {
 .img-fluid {
 	max-width: 90%;
 	height: auto;
+	padding: 20px;
+	margin: 20px;
 }
