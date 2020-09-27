@@ -84,6 +84,7 @@ h3 {
 	border-style: solid;
 	border-width: 20px;
 	border-color: #4B1746;
+	border-radius: 8px;
 }
 .footer {
 	position: absolute;
