@@ -94,12 +94,12 @@ h3 {
 #innerpage {
 	margin: 20px;
 	background-color:#f8f8f8;
-	padding: 20px;
+	/* padding: 20px; */
 	border-radius: 8px;
 	max-height: 100%;
 }
 #delly {
-	max-width: 30%;
+	max-width: 60%;
 	height: auto;
 	float: right;
 }
