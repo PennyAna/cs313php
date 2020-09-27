@@ -20,20 +20,21 @@
 					<li  class="active"><a href="./home.php">Home</a></li>
 					<li><a href="../html/assignments.html">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
+					</ul><br>
 					<br>
-					<li id="phpMe">
-						<?php 
-						date_default_timezone_set('America/Denver');
-						echo "The time is " . date("h:i:a") . "(MST).<br>";
-						$t = date("H");
-						if ($t < 10) {
-							echo "Have a good morning!";
-						} elseif ($t < 20 and $t > 10) {
-							echo "Have a good day!";
-						} else {
-							echo "Have a good night!";							}
-						?></li>
-				</ul><br>
+				<div id="phpMe">
+					<?php 
+					date_default_timezone_set('America/Denver');
+					echo "The time is " . date("h:i:a") . "(MST).<br>";
+					$t = date("H");						
+					if ($t < 10) {
+						echo "Have a good morning!";
+					} elseif ($t < 20 and $t > 10) {
+						echo "Have a good day!";
+					} else {
+						echo "Have a good night!";							
+						}						?>
+					</div>
 			</div>
 			<div class="col-sm-9">
 				<h4><small>To Those Tempted To Homeschool-An Open Letter</small></h4>
