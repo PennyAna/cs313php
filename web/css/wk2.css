@@ -29,6 +29,7 @@
 		width: auto;
 	}
 }
+
 body {
 	background-color: var(--color-light);
 	color: var(--color-dark-alt);
@@ -36,6 +37,7 @@ body {
 #google_translate_element {
 	float: right;
 }
+
 hr {
 	background-color: var(--color-dark-alt);
 }

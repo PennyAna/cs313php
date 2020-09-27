@@ -16,7 +16,7 @@
 			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
 					<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
-					<h3>Title</h3>
+					<h3>The Girl with Glasses</h3>
 					<ul class="nav nav-pills nav-stacked">
 						<li  class="active"><a href="./home.php">Home</a></li>
 						<li><a href="../html/assignments.html">Assignments</a></li>
