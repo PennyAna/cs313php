@@ -9,7 +9,7 @@
 
 .row.content {
 	height: 1500px;
-	margin: 20px;
+	/* margin: 20px; */
 }
 .sidenav {
 	background-color: var(--color-dark);
@@ -61,7 +61,7 @@ h3 {
 	
 }
 .col-sm-9 {
-	font-size: 20px;
+	font-size: 15px;
 	text-align: left;
 	max-width: 75%;
 }
