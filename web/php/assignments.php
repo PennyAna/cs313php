@@ -44,7 +44,7 @@
 			<div class="col-sm-9">
 				<h4><small>Assignments</small></h4>
 				<hr>
-				<div>
+				<div id="innerpage">
                     <img id="delly" src="../images/reading.JPG" alt="Dyslexics can Read" class="img-thumbnail float-right">
 					<ul id="assigns">
 						<li><a href="">Week 3</a></li>
