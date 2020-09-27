@@ -40,8 +40,5 @@
 			</div>
 		</div>
 	</div>
-	<footer class="container-fluid">
-			Text Source: 
-	</footer>
 </body>
 </html>

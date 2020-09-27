@@ -16,15 +16,7 @@
 	width: 20%;
 	color: var(--color-light);
 }
-footer {
-	background-color: var(--color-accent);
-	color: var(--color-light);
-	padding: 10px;
-	position: fixed;
-	width: 100%;
-	bottom: 0px;
-	text-align: center;
-}
+
 @media screen and (max-width: 767px) {
 	.sidenav {
 		height: auto;
