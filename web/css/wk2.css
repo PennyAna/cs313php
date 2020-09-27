@@ -65,6 +65,8 @@ h4 {
 	background-color: #CB9CF2;
 	color: var(--color-dark);
 	border-radius: 20px;
+	text-align: center;
+	font-size: 18px;
 }
 h3 {
 	vertical-align: middle;
