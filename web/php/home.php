@@ -14,6 +14,7 @@
 	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
+				<br><br>
 				<div id="phpMe">
 					<p>
 						<?php 
