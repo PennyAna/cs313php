@@ -12,7 +12,7 @@
 }
 .sidenav {
 	background-color: var(--color-dark);
-	height: 110%;
+	height: 100%;
 	width: 20%;
 	color: var(--color-light);
 }
@@ -29,6 +29,7 @@
 body {
 	background-color: var(--color-light);
 	color: var(--color-dark-alt);
+	height: 100%;
 }
 #google_translate_element {
 	float: right;
