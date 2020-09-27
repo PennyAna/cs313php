@@ -13,21 +13,7 @@
 <body>
 	<div class="container-fluid">
 		<div class="row content">
-			<div id="phpContainer" class="col-sm-3 sidenav">
-				<div id="phpMe">
-						<?php 
-						date_default_timezone_set('America/Denver');
-						echo "The time is " . date("h:i:a") . ".<br>";
-						$t = date("H");
-						if ($t < 10) {
-							echo "Have a good morning!";
-						} elseif ($t < 20 and $t > 10) {
-							echo "Have a good day!";
-						} else {
-							echo "Have a good night!";
-						}
-				?>
-				</div><br>
+			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
 					<h3>Title</h3>
 					<ul class="nav nav-pills nav-stacked">
@@ -36,6 +22,20 @@
 						<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 					</ul><br>
 				</div>
+				<div id="phpMe">
+						<?php 
+							date_default_timezone_set('America/Denver');
+							echo "The time is " . date("h:i:a") . ".<br>";
+							$t = date("H");
+							if ($t < 10) {
+								echo "Have a good morning!";
+							} elseif ($t < 20 and $t > 10) {
+								echo "Have a good day!";
+							} else {
+								echo "Have a good night!";
+							}
+						?>
+				</div><br>
 			</div>
 			<div class="col-sm-9">
 				<br>
