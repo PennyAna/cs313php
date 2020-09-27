@@ -40,7 +40,11 @@ body {
 
 hr {
 	background-color: var(--color-dark-alt);
-}
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(11, 0, 51, 1);
+	}
 
 h4 {
 	text-align: left;

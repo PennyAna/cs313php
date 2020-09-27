@@ -14,28 +14,25 @@
 	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
-				<div id="sidenav">
-					<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
-					<h3>The Girl with Glasses</h3>
-					<ul class="nav nav-pills nav-stacked">
-						<li  class="active"><a href="./home.php">Home</a></li>
-						<li><a href="../html/assignments.html">Assignments</a></li>
-						<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
-					</ul><br>
-				</div>
+				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
+				<h3>The Girl with Glasses</h3>
+				<ul class="nav nav-pills nav-stacked">
+					<li  class="active"><a href="./home.php">Home</a></li>
+					<li><a href="../html/assignments.html">Assignments</a></li>
+					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
+				</ul><br>
 				<div id="phpMe" class="align-bottom">
-						<?php 
-							date_default_timezone_set('America/Denver');
-							echo "The time is " . date("h:i:a") . ".<br>";
-							$t = date("H");
-							if ($t < 10) {
-								echo "Have a good morning!";
-							} elseif ($t < 20 and $t > 10) {
-								echo "Have a good day!";
-							} else {
-								echo "Have a good night!";
-							}
-						?>
+					<?php 
+						date_default_timezone_set('America/Denver');
+						echo "The time is " . date("h:i:a") . ".<br>";
+						$t = date("H");
+						if ($t < 10) {
+							echo "Have a good morning!";
+						} elseif ($t < 20 and $t > 10) {
+							echo "Have a good day!";
+						} else {
+							echo "Have a good night!";							}
+					?>
 				</div><br>
 			</div>
 			<div class="col-sm-9">
