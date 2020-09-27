@@ -15,10 +15,8 @@
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
-					<div id="animeMe">
-						<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
-					</div>
-						<h3>Title</h3>
+					<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
+					<h3>Title</h3>
 					<ul class="nav nav-pills nav-stacked">
 						<li  class="active"><a href="./home.php">Home</a></li>
 						<li><a href="../html/assignments.html">Assignments</a></li>
@@ -79,7 +77,7 @@
 				<p>	You’ll mess up. Don’t let the failures define your homeschool. Celebrate those days when you have been an amazing 
 					homeschool mom. I mean, seriously, you were awesome! People commented on your wonderful, smart, mature children, 
 					the aforementioned children got to see brains at the local college, and even did well on the standardized test. 
-					Boo and a ‘Yah!
+					<br>Boo and a ‘Yah!
 					</p>
 				<p>	In response to your concerns: the only thing that will completely allay them is proof, every year that you can 
 					see tangible progress in your homeschool. For my husband, the behavioral changes in our daughter (for the better) 
