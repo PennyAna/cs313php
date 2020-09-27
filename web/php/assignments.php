@@ -28,7 +28,8 @@
                             echo "Have a good day!";
                         } else {
                             echo "Have a good night!";							
-                            }						?>
+                            }						
+                            ?>
 				</div>
 				<br>
 				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
@@ -38,8 +39,8 @@
 					<li><a href="./assignments.php">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 					</ul><br>
-					<br>	
-			</div>
+                    <br>	
+            </div>
 			<div class="col-sm-9">
 				<h4><small>Assignments</small></h4>
 				<hr>
