@@ -42,32 +42,43 @@
 				<hr>
 				<p>I heard somewhere that you were thinking about homeschooling. Don’t bother asking where, we’re like the Mafia, 
 					we never tell. But since you’re at least interested, take a seat and listen to my spiel.
-					As tempting as homeschool sounds, you’re uncertain; suspicious even. What about socialization, 
+					</p>
+				<p>	As tempting as homeschool sounds, you’re uncertain; suspicious even. What about socialization, 
 					grades, keeping up, and the persistent fear that your kid will turn out to be one of those homeschoolers? 
 					You know, the weird ones. Oh, and if you have any physical difficulties or chronic diseases, how on earth 
 					can you be a full-time mom AND teacher? Do you have a spouse or other family member doubting your ability 
 					to do all this?
-					Not only did my husband (mostly secretly) have these fears, but I did as well. I have a chronic disease and ADHD. 
+					</p>
+				<p>	Not only did my husband (mostly secretly) have these fears, but I did as well. I have a chronic disease and ADHD. 
 					I cannot say from day to day what will be accomplished. And some years not much has gotten done, like the year of 
 					the baby, then the other baby, then the miscarriages and living with the in-laws. Not complaining, trying to point
 					out that life will mess up every schedule to some degree. Yes, of course it will be hard. Insanely hard. You will 
 					have to choose between math homework and piles of laundry or doctor’s appointments and field trips. Many times the 
 					chores will go undone. And sometimes the schoolwork will take the backseat. Either way, it will be okay.
-					When you first go into homeschooling, you’re nervous, almost paralyzed with fear of messing it up. You feel the 
+					</p>
+				<p> When you first go into homeschooling, you’re nervous, almost paralyzed with fear of messing it up. You feel the 
 					weight of those twelve years and the immensity of your responsibility. How can you possibly do this? Your child’s
 					entire academic and world success rests on you: a stressed-out, harried, hopefully sane mom or dad.
 					This is supposed to be calming, right? I guess I’m not doing a very good job. Here’s the key: three things to make 
 					this whole wonderfully terrifying and terrifyingly wonderful homeschool thing work.
-					1. breathe.
-					2. accept that some/many days you’ll be lucky to have these people dressed and fed.
-					3. always continue to do better.
-					That’s it, good luck!
-					Just kidding, here’s the rest.
-					You’ll mess up. Don’t let the failures define your homeschool. Celebrate those days when you have been an amazing 
+					</P>
+				<p> 
+					<ol>
+						<li>breathe.</li>
+						<li>accept that some/many days you’ll be lucky to have these people dressed and fed.</li>
+						<li>always continue to do better.</li>
+					</ol>
+					</p>
+				<p>	That’s it, good luck!
+					</p>	
+				<p>	Just kidding, here’s the rest.
+					</p>
+				<p>	You’ll mess up. Don’t let the failures define your homeschool. Celebrate those days when you have been an amazing 
 					homeschool mom. I mean, seriously, you were awesome! People commented on your wonderful, smart, mature children, 
 					the aforementioned children got to see brains at the local college, and even did well on the standardized test. 
 					Boo and a ‘Yah!
-					In response to your concerns: the only thing that will completely allay them is proof, every year that you can 
+					</p>
+				<p>	In response to your concerns: the only thing that will completely allay them is proof, every year that you can 
 					see tangible progress in your homeschool. For my husband, the behavioral changes in our daughter (for the better) 
 					and her decent score on the CAT exam have him feeling better about this whole subversive lifestyle. Me, I’m not 
 					as focused on the numbers. Okay, I lie. I called up my mom the second I found out that I haven’t ruined her 
@@ -77,12 +88,16 @@
 					for our family and look for ways to contribute. I think they are well on their way to catching the same vision. 
 					It is so sweet to have them home with you and they learn so much just from going about life at home: helping, cooking, 
 					cleaning. They become each other’s friends, mentors, and teachers. And, most importantly to me, each other’s protectors. 
-					This is my proof. And I get more every day.
-					Oh, and they’re not perfect. They will fight. And fight. You will tear your hair out. And you’ll want to invest in 
+					</p>
+				<p>	This is my proof. And I get more every day.
+					</p>
+				<p>	Oh, and they’re not perfect. They will fight. And fight. You will tear your hair out. And you’ll want to invest in 
 					straitjackets. But it’s not legal. I checked.
-					But then you have the moments where they are perfect. Brief beautiful moments when you can see the man or woman 
+					</p>
+				<p>	But then you have the moments where they are perfect. Brief beautiful moments when you can see the man or woman 
 					they will become and how what you are doing will help them achieve it. Ah, I love it.
-					Whether you homeschool or not, catch this vision. Create a home that schools, even if it’s not a homeschool.
+						</p>
+				<p>	Whether you homeschool or not, catch this vision. Create a home that schools, even if it’s not a homeschool.
 					But, really, homeschool. 
 				</p>
 				<br>
