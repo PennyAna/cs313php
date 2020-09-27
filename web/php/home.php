@@ -20,9 +20,8 @@
 					<li  class="active"><a href="./home.php">Home</a></li>
 					<li><a href="../html/assignments.html">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
-				</ul><br>
-				<div id="phpMe" class="nav nav-pills nav-stacked">
-					<?php 
+					<li id="phpMe">
+						<?php 
 						date_default_timezone_set('America/Denver');
 						echo "The time is " . date("h:i:a") . ".<br>";
 						$t = date("H");
@@ -32,8 +31,8 @@
 							echo "Have a good day!";
 						} else {
 							echo "Have a good night!";							}
-					?>
-				</div><br>
+						?></li>
+				</ul><br>
 			</div>
 			<div class="col-sm-9">
 				<h4><small>To Those Tempted To Homeschool-An Open Letter</small></h4>
