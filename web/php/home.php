@@ -17,7 +17,7 @@
 				<div id="phpMe">
 					<p>
 						<?php 
-						echo <br>
+						echo <br>;
 						date_default_timezone_set('America/Denver');
 						echo "The time is " . date("h:i:a") . ".<br>";
 						$t = date("H");
