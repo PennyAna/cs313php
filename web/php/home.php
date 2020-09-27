@@ -32,7 +32,7 @@
 				<ul class="nav nav-pills nav-stacked">
 					<li  class="active"><a href="./home.php">Home</a></li>
 					<li><a href="../html/assignments.html">Assignments</a></li>
-					<li><a href="../html/teamteach.html">Team Activities</a></li>
+					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 				</ul><br>
 			</div>
 			<div class="col-sm-9">
