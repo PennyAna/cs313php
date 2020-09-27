@@ -18,7 +18,7 @@
 			<div class="col-sm-3 sidenav">
 				<br>
 				<div id="phpMe">
-					<?php
+                <?php 
 					date_default_timezone_set('America/Denver');
 					echo "The time is " . date("h:i:a") . "(MST).<br>";
 					$t = date("H");						
@@ -28,9 +28,7 @@
 						echo "Have a good day!";
 					} else {
 						echo "Have a good night!";							
-                        }						
-                    }
-                    ?>
+						}						?>
 					</div>
 					<br>
 				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
