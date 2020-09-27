@@ -45,6 +45,7 @@
 				<h4><small>Assignments</small></h4>
 				<hr>
 				<div>
+                <img id="delly" src="../images/reading.JPG" alt="Dyslexics can Read" class="img-thumbnail">
 					<ul id="assigns">
 						<li><a href="">Week 3</a></li>
 						<li><a href="">Week 4</a></li>
@@ -58,7 +59,6 @@
 						<li><a href="">Week 12</a></li>
 						<li><a href="">Week 13</a></li>
 					</ul>
-					<img id="delly" src="../images/reading.JPG" alt="Dyslexics can Read" class="img-thumbnail">
 				</div>
 			</div>
 		</div>
