@@ -14,14 +14,6 @@
 	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
-				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
-				<h3>The Girl with Glasses</h3>
-				<ul class="nav nav-pills nav-stacked">
-					<li  class="active"><a href="./home.php">Home</a></li>
-					<li><a href="../html/assignments.html">Assignments</a></li>
-					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
-					</ul><br>
-					<br>
 				<div id="phpMe">
 					<?php 
 					date_default_timezone_set('America/Denver');
@@ -35,6 +27,16 @@
 						echo "Have a good night!";							
 						}						?>
 					</div>
+					<br>
+				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
+				<h3>The Girl with Glasses</h3>
+				<ul class="nav nav-pills nav-stacked">
+					<li  class="active"><a href="./home.php">Home</a></li>
+					<li><a href="../html/assignments.html">Assignments</a></li>
+					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
+					</ul><br>
+					<br>
+				
 			</div>
 			<div class="col-sm-9">
 				<h4><small>To Those Tempted To Homeschool-An Open Letter</small></h4>
