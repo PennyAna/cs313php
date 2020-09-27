@@ -15,7 +15,7 @@
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
-					<div id="animeMe">
+					<div id="animeMe" class="d-sm-flex">
 						<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
 					</div>
 						<h3>Title</h3>
