@@ -21,10 +21,10 @@
 					<li><a href="../html/assignments.html">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 					<br>
-					<li id="phpMe"
+					<li id="phpMe">
 						<?php 
 						date_default_timezone_set('America/Denver');
-						echo "The time is " . date("h:i:a") . ".<br>";
+						echo "The time is " . date("h:i:a") . "(MST).<br>";
 						$t = date("H");
 						if ($t < 10) {
 							echo "Have a good morning!";
@@ -32,7 +32,7 @@
 							echo "Have a good day!";
 						} else {
 							echo "Have a good night!";							}
-						?>></li>
+						?></li>
 				</ul><br>
 			</div>
 			<div class="col-sm-9">
