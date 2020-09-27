@@ -26,7 +26,7 @@
 						} else {
 							echo "Have a good night!";
 						}
-					</p>
+				?>
 				</div><br>
 				<div id="sidenav">
 					<h3>Title</h3>
