@@ -56,6 +56,7 @@ h3 {
 	font-family: Bookman;
 	font-size: 20px;
 	text-align: left;
+	max-width: 75%;
 }
 .img-fluid {
 	max-width: 90%;
