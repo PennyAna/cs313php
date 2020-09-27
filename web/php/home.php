@@ -15,9 +15,8 @@
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
-					<picture id="animeMe">
-						<img srcset-"../images/animeMe.jpg" alt="Girl with Glasses" class="d-block img-fluid">
-					</picture>
+					<div id="animeMe">
+						<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-rounded">
 					</div>
 						<h3>Title</h3>
 					<ul class="nav nav-pills nav-stacked">
