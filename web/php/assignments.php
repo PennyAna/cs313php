@@ -18,19 +18,19 @@
 			<div class="col-sm-3 sidenav">
 				<br>
 				<div id="phpMe">
-                <?php 
-					date_default_timezone_set('America/Denver');
-					echo "The time is " . date("h:i:a") . "(MST).<br>";
-					$t = date("H");						
-					if ($t < 10) {
-						echo "Have a good morning!";
-					} elseif ($t < 20 and $t > 10) {
-						echo "Have a good day!";
-					} else {
-						echo "Have a good night!";							
-						}						?>
-					</div>
-					<br>
+                    <?php 
+                        date_default_timezone_set('America/Denver');
+                        echo "The time is " . date("h:i:a") . "(MST).<br>";
+                        $t = date("H");						
+                        if ($t < 10) {
+                            echo "Have a good morning!";
+                        } elseif ($t < 20 and $t > 10) {
+                            echo "Have a good day!";
+                        } else {
+                            echo "Have a good night!";							
+                            }						?>
+				</div>
+				<br>
 				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
 				<h3>The Girl with Glasses</h3>
 				<ul class="nav nav-pills nav-stacked">
