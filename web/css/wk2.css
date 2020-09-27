@@ -47,4 +47,5 @@ h4 {
 }
 #phpMe {
 	background-color: var(--color-accent);
+	height: 30px;
 }
