@@ -38,7 +38,7 @@
 			<div class="col-sm-9">
 				<h4><small>To Those Tempted To Homeschool-An Open Letter</small></h4>
 				<hr>
-				<p>I heard somewhere that you were thinking about homeschooling. Don’t bother asking where, we’re like the Mafia, 
+				<p>I heard somewhere that you were thinking about homeschooling. Don’t bother asking where; we’re like the Mafia, 
 					we never tell. But since you’re at least interested, take a seat and listen to my spiel.
 					</p>
 				<p>	As tempting as homeschool sounds, you’re uncertain; suspicious even. What about socialization, 
