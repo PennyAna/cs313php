@@ -15,9 +15,7 @@
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
 				<div id="phpMe">
-					<p>
 						<?php 
-						echo <br>;
 						date_default_timezone_set('America/Denver');
 						echo "The time is " . date("h:i:a") . ".<br>";
 						$t = date("H");
@@ -28,7 +26,6 @@
 						} else {
 							echo "Have a good night!";
 						}
-					?>
 					</p>
 				</div><br>
 				<div id="sidenav">
