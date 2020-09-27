@@ -28,7 +28,9 @@
 						echo "Have a good day!";
 					} else {
 						echo "Have a good night!";							
-						}						?>
+                        }						
+                    }
+                    ?>
 					</div>
 					<br>
 				<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-thumbnail float-left">
@@ -61,6 +63,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+    </div>
+    <footer class="footer">
+		<div class="container">
+			<span class="text-muted">
+				Content property of RestrainedChaos: https://bit.ly/36bAt0s
+			</span>
+	</footer>
 </body>
 </html>
