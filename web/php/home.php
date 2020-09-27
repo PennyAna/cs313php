@@ -20,6 +20,7 @@
 					<li  class="active"><a href="./home.php">Home</a></li>
 					<li><a href="../html/assignments.html">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
+					<br>
 					<li id="phpMe">
 						<?php 
 						date_default_timezone_set('America/Denver');
