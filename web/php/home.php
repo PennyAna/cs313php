@@ -16,7 +16,7 @@
 			<div class="col-sm-3 sidenav">
 				<div id="sidenav">
 					<div id="animeMe">
-						<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-sm-rounded">
+						<img src="../images/animeMe.jpg" alt="Girl with Glasses" class="img-fluid">
 					</div>
 						<h3>Title</h3>
 					<ul class="nav nav-pills nav-stacked">
