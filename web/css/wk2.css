@@ -65,7 +65,7 @@ h4 {
 	color: var(--color-dark);
 }
 h3 {
-	
+	vertical-align: middle;
 }
 .col-sm-9 {
 	font-size: 18px;

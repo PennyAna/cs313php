@@ -102,5 +102,11 @@
 			</div>
 		</div>
 	</div>
+	<footer class="footer">
+		<div class="container">
+			<span class="text-muted">
+				Content property of RestrainedChaos: https://bit.ly/36bAt0s
+			</span>
+	</footer>
 </body>
 </html>
