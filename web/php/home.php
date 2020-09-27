@@ -101,8 +101,9 @@
 					they will become and how what you are doing will help them achieve it. Ah, I love it.
 						</p>
 				<p>	Whether you homeschool or not, catch this vision. Create a home that schools, even if it’s not a homeschool.
-					But, really, homeschool. 
-				</p>
+					</p>	
+				<p>But, really, homeschool. 
+					</p>
 				<br>
 			</div>
 		</div>
