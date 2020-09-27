@@ -59,7 +59,7 @@
 					<p> When you first go into homeschooling, you’re nervous, almost paralyzed with fear of messing it up. You feel the 
 						weight of those twelve years and the immensity of your responsibility. How can you possibly do this? Your child’s
 						entire academic and world success rests on you: a stressed-out, harried, hopefully sane mom or dad.
-						This is supposed to be calming, right? I guess I’m not doing a very good job. Here’s the key: three things to make 
+						This is supposed to be calming, right? I guess I’m not doing a very good job. <br>Here’s the key: three things to make 
 						this whole wonderfully terrifying and terrifyingly wonderful homeschool thing work.
 						</P>
 					<p> 
