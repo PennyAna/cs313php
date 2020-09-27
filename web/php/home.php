@@ -33,7 +33,7 @@
 				<h3>The Girl with Glasses</h3>
 				<ul class="nav nav-pills nav-stacked">
 					<li  class="active"><a href="./home.php">Home</a></li>
-					<li><a href="../html/assignments.html">Assignments</a></li>
+					<li><a href="./assignments.php">Assignments</a></li>
 					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
 					</ul><br>
 					<br>
