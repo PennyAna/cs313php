@@ -15,7 +15,8 @@
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
 				<div id="phpMe">
-					<?php 
+					<p>
+						<?php 
 						date_default_timezone_set('America/Denver');
 						echo "The time is " . date("h:i:a") . ".<br>";
 						$t = date("H");
@@ -27,13 +28,16 @@
 							echo "Have a good night!";
 						}
 					?>
+					</p>
 				</div><br>
-				<h3>Title</h3>
-				<ul class="nav nav-pills nav-stacked">
-					<li  class="active"><a href="./home.php">Home</a></li>
-					<li><a href="../html/assignments.html">Assignments</a></li>
-					<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
-				</ul><br>
+				<div id="sidenav">
+					<h3>Title</h3>
+					<ul class="nav nav-pills nav-stacked">
+						<li  class="active"><a href="./home.php">Home</a></li>
+						<li><a href="../html/assignments.html">Assignments</a></li>
+						<!-- --<li><a href="../html/teamteach.html">Team Activities</a></li> -->
+					</ul><br>
+				</div>
 			</div>
 			<div class="col-sm-9">
 				<br>
