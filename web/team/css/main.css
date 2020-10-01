@@ -1,0 +1,27 @@
+
+* {
+    margin: auto;
+    max-width: 800px;
+}
+
+body {
+    margin-top: 20px;
+}
+
+section {
+    margin: 20px;
+}
+
+div {
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    margin: 20px;
+    padding: 5px;
+}
+
+div:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
