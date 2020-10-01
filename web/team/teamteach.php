@@ -44,8 +44,8 @@
 				<h4><small>Team Activities</small></h4>
 				<hr>
 				<ul>
-					<li><a href url="../team/teach2.html">Week 2</a></li>
-					<li><a href url="../team/week3.php">Week 3</a></li>
+					<li><a href url="./teach2.html">Week 2</a></li>
+					<li><a href url="./week3.php">Week 3</a></li>
 					<li><a href url="">Week 4</a></li>
 					<li><a href url="">Week 5</a></li>
 					<li><a href url="">Week 6</a></li>
