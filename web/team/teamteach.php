@@ -44,18 +44,18 @@
 				<h4><small>Team Activities</small></h4>
 				<hr>
 				<ul>
-					<li><a href url="./teach2.html">Week 2</a></li>
-					<li><a href url="./week3.php">Week 3</a></li>
-					<li><a href url="">Week 4</a></li>
-					<li><a href url="">Week 5</a></li>
-					<li><a href url="">Week 6</a></li>
-					<li><a href url="">Week 7</a></li>
-					<li><a href url="">Week 8</a></li>
-					<li><a href url="">Week 9</a></li>
-					<li><a href url="">Week 10</a></li>
-					<li><a href url="">Week 11</a></li>
-					<li><a href url="">Week 12</a></li>
-					<li><a href url="">Week 13</a></li>
+					<li><a href="./teach2.html">Week 2</a></li>
+					<li><a href="./week3.php">Week 3</a></li>
+					<li><a href="">Week 4</a></li>
+					<li><a href="">Week 5</a></li>
+					<li><a href="">Week 6</a></li>
+					<li><a href="">Week 7</a></li>
+					<li><a href="">Week 8</a></li>
+					<li><a href="">Week 9</a></li>
+					<li><a href="">Week 10</a></li>
+					<li><a href="">Week 11</a></li>
+					<li><a href="">Week 12</a></li>
+					<li><a href="">Week 13</a></li>
 				</ul>
 			</div>
 		</div>
