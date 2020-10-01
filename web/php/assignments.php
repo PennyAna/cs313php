@@ -37,7 +37,7 @@
 				<ul class="nav nav-pills nav-stacked">
 					<li><a href="../index.php">Home</a></li>
 					<li  class="active"><a href="./assignments.php">Assignments</a></li>
-					<li><a href="./teamteach.php">Team Activities</a></li>
+					<li><a href="../team/teamteach.php">Team Activities</a></li>
 					</ul><br>
                     <br>	
             </div>
