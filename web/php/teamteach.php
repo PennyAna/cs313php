@@ -16,7 +16,7 @@
 	<div class="container-fluid">
 		<div class="row content">
 			<div class="col-sm-3 sidenav">
-				<br>
+			<br>
 				<div id="phpMe">
                     <?php 
                         date_default_timezone_set('America/Denver');
@@ -36,38 +36,32 @@
 				<h3>The Girl with Glasses</h3>
 				<ul class="nav nav-pills nav-stacked">
 					<li><a href="../index.php">Home</a></li>
-					<li  class="active"><a href="./assignments.php">Assignments</a></li>
-					<li><a href="./teamteach.php">Team Activities</a></li>
-					</ul><br>
-                    <br>	
-            </div>
+					<li><a href="./assignments.php">Assignments</a></li>
+					<li  class="active"><a href="./teamteach.php">Team Activities</a></li>
+				</ul><br>
+			</div>
 			<div class="col-sm-9">
-				<h4><small>Assignments</small></h4>
+				<h4><small>Team Activities</small></h4>
 				<hr>
-				<div id="innerpage">
-                    <img id="delly" src="../images/reading.JPG" alt="Dyslexics can Read" class="img-thumbnail float-right">
-					<ul id="assigns">
-						<li><a href="./shop_browse.php">Week 3</a></li>
-						<li><a href="">Week 4</a></li>
-						<li><a href="">Week 5</a></li>
-						<li><a href="">Week 6</a></li>
-						<li><a href="">Week 7</a></li>
-						<li><a href="">Week 8</a></li>
-						<li><a href="">Week 9</a></li>
-						<li><a href="">Week 10</a></li>
-						<li><a href="">Week 11</a></li>
-						<li><a href="">Week 12</a></li>
-						<li><a href="">Week 13</a></li>
-					</ul>
-				</div>
+				<ul>
+					<li><a href url="../cs313-php-Channel1/02Teach/teach2.html">Week 2</a></li>
+					<li><a href url="../cs313-php-Channel1/03Teach/week3.php">Week 3</a></li>
+					<li><a href url="">Week 4</a></li>
+					<li><a href url="">Week 5</a></li>
+					<li><a href url="">Week 6</a></li>
+					<li><a href url="">Week 7</a></li>
+					<li><a href url="">Week 8</a></li>
+					<li><a href url="">Week 9</a></li>
+					<li><a href url="">Week 10</a></li>
+					<li><a href url="">Week 11</a></li>
+					<li><a href url="">Week 12</a></li>
+					<li><a href url="">Week 13</a></li>
+				</ul>
 			</div>
 		</div>
-    </div>
-    <footer class="footer">
-		<div class="container">
-			<span class="text-muted">
-				Content property of RestrainedChaos: https://bit.ly/36bAt0s
-			</span>
+	</div>
+	<footer class="container-fluid">
+		<p>Footer</p>
 	</footer>
 </body>
 </html>
