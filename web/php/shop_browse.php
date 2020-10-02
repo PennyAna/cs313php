@@ -12,7 +12,7 @@ cart php contains: cart summary
 					submit "checkout" button, clear button
 					action sends to confirm php
 -->
-
+<!-- 
 </html>
 <!DOCTYPE html>
 <html lang="en">
@@ -33,10 +33,10 @@ cart php contains: cart summary
 <div class="container fluid" id="flex1" >
 <div class="row">
 <div id="headerDiv" class="span-12">
-<!--insert RR1 pic-->
+insert RR1 pic
 <img id="" src="" alt="">
 <header><p>Header</p></header>
-<!--insert basket icon-->
+insert basket icon
 <img id="" src="" alt="See Cart"><a href="./cartmain.php">Cart</a></img>
 </div>
 </div>
@@ -228,7 +228,7 @@ cart php contains: cart summary
 </div>
 </div>
 </body>
-</html>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
