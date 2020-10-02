@@ -21,7 +21,7 @@ The view cart page should have:
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 <title>Title</title>
 <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-<link rel="stylesheet" type="text/css" href="./shopping.css"/>
+<link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
 </head>
 <body>
 <div class="jumbotron">
