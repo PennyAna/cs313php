@@ -5,6 +5,7 @@
 	--color-teal: #218380; /*teal*/
 	--color-pinkred: #D81159; /*rubine red*/
 	--color-berry: #8F2D56; /*quinacridone magenta*/
+	--color-violet: #F75590; /*violet red*/
 }
 
 body {
@@ -31,14 +32,14 @@ footer {
 h1 {
 	font-size: 75px;
 	font-family: 'Aclonica';
-	color: var(--color-teal);
+	color: var(--color-);
 }
 .navbar {
 	background-color: var(--color-berry);
 	color: var(--color-yellow);
 }
 .panel-heading {
-	background-color: var(--color-yellow) !important;
+	background-color: var(--color-teal) !important;
 }
 .navbar-brand {
 	color: var(--color-yellow);
