@@ -31,6 +31,12 @@ body {
 footer {
 	background-color: var(--color-pinkred);
 	padding: 25px;
+	position: absolute;
+  	bottom: 0;
+  	max-width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: 60px;
+  	line-height: 60px; /* Vertically center the text there */
 }
 
 /* #RR1 {
