@@ -37,12 +37,12 @@
 </div>
 <div class="collapse navbar-collapse" id="myNavbar">
 <ul class="nav navbar-nav">
-<li class="active"><a href="./shop_browse.php">Home</a></li>
-<li><a href="./shop_browse.php">Products</a></li>
+<li class="active"><a href="./shop_browse.php"> Home</a></li>
+<li><a href="./shop_browse.php"><span class="glyphicon glyphicon-collection"></span> Products</a></li>
 <li><a href="#"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
-<li><a href="#"><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
 <li><a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart">
 </span> Cart</a></li>
 <!--Provide a way to remove individual items 
