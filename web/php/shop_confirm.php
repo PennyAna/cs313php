@@ -19,7 +19,7 @@ Make sure to check:
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='author' content='RestrainedChaos'>
     <title>Title</title>
-    <link rel='stylesheet' type='text/css' href='shopping.css'>
+    <link rel='stylesheet' type='text/css' href='../css/shopping.css'>
   </head>
 <body>
     <header> <h1>Order Confirmation</h1> </header>
