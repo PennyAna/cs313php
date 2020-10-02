@@ -12,16 +12,55 @@ Make sure to check:
 <?php 
 	$name = htmlspecialchars($_POST["name"]);
 	$email = htmlspecialchars($_POST["email"]);
-?>
-<html>
-  <head> 
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='author' content='RestrainedChaos'>
-    <title>Title</title>
-    <link rel='stylesheet' type='text/css' href='../css/shopping.css'>
-  </head>
+?><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Store">
+<meta name="keywords" content="">
+<meta name="author" content="RestrainedChaos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<title>Title</title>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
+</head>
 <body>
+<div class="jumbotron">
+<div class="container text-center">
+<h1>Header</h1>
+<img id="" src="" alt="">
+<p></p>
+</div>
+</div>
+<form id="cartCount" method="post" action="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="">Nav</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="./shop_browse.php">Home</a></li>
+<li><a href="./shop_browse.php">Products</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href=""><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
+<li><a href="shop_browse.php"><span class="glyphicon glyphicon-shopping-cart">
+</span>Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
+<?php
+
+?>
+</ul>
+</div>
+</div>
     <header> <h1>Order Confirmation</h1> </header>
     <div id='page-container'>
       <div id='content-wrap'>

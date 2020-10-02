@@ -5,25 +5,55 @@
     is collected, only an address.)
     the option to complete the purchase 
     or return to the cart.-->
-<!DOCTYPE html>
-<html>
+    <!DOCTYPE html>
+<html lang="en">
 <head>
-<meta>
+<meta charset="UTF-8">
+<meta name="description" content="Store">
+<meta name="keywords" content="">
+<meta name="author" content="RestrainedChaos">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<title>Title</title>
+<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+<link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
 </head>
 <body>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='author' content='RestrainedChaos'>
-    <title>Title</title>
-    <link rel='stylesheet' type='text/css' href='../css/shopping.css'>
-  </head>
-  <body>
-    <header> <h1>Header</h1></header>
-	<p>
-	<a href='./browsemain.php'>Shop Home</a>
-	<a href='../homepage/home2.html'>Assignments</a>
-	<a href='../index.php'>Homepage</a>
-	</p>
+<div class="jumbotron">
+<div class="container text-center">
+<h1>Header</h1>
+<img id="" src="" alt="">
+<p></p>
+</div>
+</div>
+<form id="cartCount" method="post" action="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="">Nav</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li class="active"><a href="./shop_browse.php">Home</a></li>
+<li><a href="./shop_browse.php">Products</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href=""><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
+<li><a href="shop_browse.php"><span class="glyphicon glyphicon-shopping-cart">
+</span>Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
+<?php
+
+?>
+</ul>
+</div>
+</div>
 <form id='confirm2' name='confirm2' action='confirm.php' method="post">
 			<label for="name">Name</label>
 			<input type="text" placeholder="Name" id="name" name="name">
