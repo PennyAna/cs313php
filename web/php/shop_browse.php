@@ -58,7 +58,7 @@
 <div class="col-sm-4"id="item0" name="item[]" value="item0">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/nebula" class="img-responsive" style="width:100%" alt="Image"></div>
+<div class="panel-body"><img src="../images/nebula.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price0" name="price[]" onchange="checkTotal()" value="10">$10.00</p></div>
