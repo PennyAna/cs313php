@@ -28,7 +28,6 @@ The view cart page should have:
 <div class="container text-center">
 <h1>Header</h1>
 <img id="" src="" alt="">
-<h1>Header</h1>
 <p></p>
 </div>
 </div>
@@ -44,13 +43,13 @@ The view cart page should have:
 </div>
 <div class="collapse navbar-collapse" id="myNavbar">
 <ul class="nav navbar-nav">
-<li class="active"><a href="#">Home</a></li>
-<li><a href="#">Products</a></li>
-<li><a href="#">Contact</a></li>
+<li class="active"><a href="shop_browse.php">Home</a></li>
+<li><a href="shop_browse.php">Products</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-phone"></span> Contact</a></li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
 <li><a href=""><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
-<li><a href="cartmain.php"><span class="glyphicon glyphicon-shopping-cart">
+<li><a href="shop_cart.php"><span class="glyphicon glyphicon-shopping-cart">
 </span> Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
 <?php
 
