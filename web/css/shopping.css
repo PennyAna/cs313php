@@ -46,7 +46,7 @@ h1 {
 
 .navbar {
 	background-color: var(--color-berry);
-	color: var(--color-yellow);
+	/*color: var(--color-yellow);*/
 }
 
 .panel-heading {
