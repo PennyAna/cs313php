@@ -1,0 +1,312 @@
+body {
+	background-color: #FBFEF9;
+}
+.navbar {
+	margin-bottom: 50px;
+	border-radius: 0;
+}
+.jumbotron { 
+	margin-bottom: 0;
+	background-color: #A63446;
+}
+footer {
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+#RR1 {
+		border: 5px solid #470017;
+		border-radius: 50%;
+		width: 250px;
+		height: auto;
+}
+h1 {
+	font-size: 75px;
+	font-family: 'Aclonica';
+	color: #470017;
+}
+.navbar {
+	background-color: #00300F;
+	color: #FBFEF9;
+}
+.panel-heading {
+	background-color: #470017 !important;
+}
+.navbar-brand {
+	color: #FBFEF9;
+}
+
+/*css for Reddest Maid*/ 
+
+
+/*page 1: main browser*/
+body {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+	background-color: azure;
+	color: #003B6F;
+	font-family: Arial, sans-serif; 
+}
+.header {
+	color: #87F5FB;
+	font-size: 90px;
+	padding: 10px;
+	background-color: #003B6F;
+	margin: 0px;
+	height: auto;
+	width: 100%;
+	border-top: 5px solid #174C7C;
+	border-bottom: 5px solid #174C7C;
+	text-align: center;
+	font-family: Courier New, sans-serif;
+}
+h2 {
+	float:left;
+}
+.footer {
+	background-color: #003B6F;
+	color: #ffffff;
+	text-align: center;
+	font-size: 12px;
+	padding: 10px;
+	margin: 0px;
+	height: auto;
+	width: 100%;
+	border-top: 5px solid #174C7C;
+	border-bottom: 5px solid #174C7C;
+}
+body {
+	background-color: #FBFEF9;
+	color: #470017;
+	margin: 0px;
+}
+#RR1 {
+	width: 200px;
+	height: auto;
+	border-radius: 55%;
+	border: 5px solid;
+	vertical-align: middle;
+}
+#basket {
+	width: 250px;
+	height: auto;
+	vertical-align: right;
+}
+header {
+	position: absolute;
+	padding: 10px;
+	/*margin: 10px 20px;*/
+	text-align: center;
+	font-size: 75px;
+	font-family: 'Aclonica';
+	color: #470017;
+	align-content: left;
+}
+#headerDiv {
+   position: relative;
+   padding: 50px;
+   height:200px;
+   width: 100%;
+   border: 10px solid #A63446;
+   margin: 0px;
+}
+#text1 {
+	padding: 10px;
+	margin: 10px;
+}
+#checkoutDiv {
+padding: 10px;
+	margin: 10px;
+}
+#checkoutButton {
+padding: 10px;
+	margin: 10px;
+}
+#cartDiv {
+padding: 10px;
+	margin: 10px;
+}
+#cartButton {
+	padding: 10px;
+	margin: 10px;
+}
+#linksDiv {
+padding: 10px;
+	margin: 10px;
+}
+/* body {
+    background-color: hsl(0, 0%, 98%);
+    font: 10px Lucida Console, sans-serif;
+    margin: 0px;
+} */
+
+/* #page-container {
+position: relative;
+min-height: 100vh;
+}
+
+#content-wrap {
+    margin: 10px;
+    padding-bottom: 2.5rem;
+} */
+/*form with table*/
+#item {}
+/*item table*/
+#stock {
+    text-align: left;
+    overflow-wrap: normal;
+}
+
+th.itemlist {
+width: 10%;
+padding: 5px;
+}
+td.itemlist {
+width: 10%;
+padding: 5px;
+}
+th.descriptlist {
+
+width: 75%;
+padding: 10px;
+}
+td.descriptlist {
+width: 60%;
+padding: 10px;
+}
+th.purchlist {
+
+width: 15%;
+padding: 5px;
+}
+td.purchlist {
+width: 15%;
+padding: 5px;
+}
+
+/*total still within table form*/
+#total {}
+
+/*form for checkout info*/
+#checkout {}
+#first_name {}
+
+#last_name {}
+         
+#location {}
+
+#address {}
+
+#phone {}
+
+#card_type {}
+
+#credit_card {}
+
+#exp_date {}
+
+/*checks for checkoutinfo*/
+#nameCheck1 {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#nameCheck2 {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#locCheck {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#phoneCheck {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#emailCheck {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#cardCheck {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+#expCheck {
+visibility: hidden;
+color: red;
+font-style: italic;
+}
+
+#totalTag {
+    float: left;
+}
+#total {
+    float: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+
+
+/* /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	[class*="col-"] {width: 100%;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+} 
+* {
+	box-sizing: border-box;
+}
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+} 
