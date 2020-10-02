@@ -58,7 +58,7 @@
 <div class="col-sm-4"id="item0" name="item[]" value="item0">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/nebula.jpg" class="img-responsive" style="width:50%" alt="Image"></div>
+<div class="panel-body"><img src="../images/nebula" class="img-responsive" style="width:100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price0" name="price[]" onchange="checkTotal()" value="10">$10.00</p></div>
@@ -67,7 +67,7 @@
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
 <div class="panel-body">
-	<p><img src="../images/animal_crackers.jpg" class="img-responsive" style="width: 50%" alt="Image"></div>
+	<p><img src="../images/animal_crackers.jpg" class="img-responsive" style="width: 100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price1" name="price[]" onchange="checkTotal()" value="10">$10.00</p></div></div>
@@ -75,7 +75,7 @@
 <div class="col-sm-4" id="item2" name="item[]" value="item2">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/mermaid_code.jpg" class="img-responsive" style="width: 50%" alt="Image"></div>
+<div class="panel-body"><img src="../images/mermaid_code.jpg" class="img-responsive" style="width: 100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price2" name="price[]" onchange="checkTotal()" value="10">$10.00</p></div>
@@ -87,7 +87,7 @@
 <div class="col-sm-4" id="item3" name="item[]" value="item3">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/bubblebath_720x.jpg" class="img-responsive" style="width: 50%;" alt="Image"></div>
+<div class="panel-body"><img src="../images/bubblebath_720x.jpg" class="img-responsive" style="width: 100%;" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price3" name="price[]" onchange="checkTotal()" value="10">$10.00</p><div>
@@ -96,7 +96,7 @@
 <div class="col-sm-4" id="item4" name="item[]" value="item4">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/firecracker.jpg" class="img-responsive" style="width:50%" alt="Image"></div>
+<div class="panel-body"><img src="../images/firecracker.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="10">$10.00</p></div>
@@ -105,7 +105,7 @@
 <div class="col-sm-4"id="item5" name="item[]" value="item5">
 <div class="panel panel-primary">
 <div class="panel-heading">Name</div>
-<div class="panel-body"><img src="../images/golden_eagle.jpg" class="img-responsive" style="width: 50%" alt="Image"></div>
+<div class="panel-body"><img src="../images/golden_eagle.jpg" class="img-responsive" style="width: 100%" alt="Image"></div>
 <div class="panel-footer">
 <p>Description</p>
 <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="10">$10.00</p>
