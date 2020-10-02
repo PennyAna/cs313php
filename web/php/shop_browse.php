@@ -113,7 +113,7 @@
 </div></div></div></div>
 <div class="container">
 <div class="row">
-<div class="col-sm-12" id="total" name="total" value="Total">
+<div class="col-lg-12" id="total" name="total" value="Total">
 <div class="panel panel-primary">
 <div class="panel-heading">Total</div>
 <div class="panel-footer"><p id="totalNum" name="totalNum">0.00</p>
