@@ -1,5 +1,14 @@
+/* HEX */
+:root {
+	--color-yellow: #FBB13C; /*yellow orange*/
+	--color-ltblue: #73D2DE; /*middle blue*/
+	--color-teal: #218380; /*teal*/
+	--color-pinkred: #D81159; /*rubine red*/
+	--color-berry: #8F2D56; /*quinacridone magenta*/
+}
+
 body {
-	background-color: #FBFEF9;
+	background-color: var(--color-ltblue);
 }
 .navbar {
 	margin-bottom: 50px;
@@ -7,39 +16,37 @@ body {
 }
 .jumbotron { 
 	margin-bottom: 0;
-	background-color: #A63446;
+	background-color: var(--color-pinkred);
 }
 footer {
-	background-color: #f2f2f2;
+	background-color: var(--color-pinkred);
 	padding: 25px;
 }
-#RR1 {
+/* #RR1 {
 		border: 5px solid #470017;
 		border-radius: 50%;
 		width: 250px;
 		height: auto;
-}
+} */
 h1 {
 	font-size: 75px;
 	font-family: 'Aclonica';
-	color: #470017;
+	color: var(--color-teal);
 }
 .navbar {
-	background-color: #00300F;
-	color: #FBFEF9;
+	background-color: var(--color-berry);
+	color: var(--color-yellow);
 }
 .panel-heading {
-	background-color: #470017 !important;
+	background-color: var(--color-yellow) !important;
 }
 .navbar-brand {
-	color: #FBFEF9;
+	color: var(--color-yellow);
 }
-
-/*css for Reddest Maid*/ 
 
 
 /*page 1: main browser*/
-body {
+/*body {
 	width: 100%;
     height: 100%;
     margin: 0px;
@@ -97,7 +104,7 @@ header {
 	position: absolute;
 	padding: 10px;
 	/*margin: 10px 20px;*/
-	text-align: center;
+/*	text-align: center;
 	font-size: 75px;
 	font-family: 'Aclonica';
 	color: #470017;
@@ -151,9 +158,9 @@ min-height: 100vh;
     padding-bottom: 2.5rem;
 } */
 /*form with table*/
-#item {}
+/*#item {}
 /*item table*/
-#stock {
+/*#stock {
     text-align: left;
     overflow-wrap: normal;
 }
@@ -186,10 +193,10 @@ padding: 5px;
 }
 
 /*total still within table form*/
-#total {}
+/*#total {}
 
 /*form for checkout info*/
-#checkout {}
+/*#checkout {}
 #first_name {}
 
 #last_name {}
@@ -207,7 +214,7 @@ padding: 5px;
 #exp_date {}
 
 /*checks for checkoutinfo*/
-#nameCheck1 {
+/*#nameCheck1 {
 visibility: hidden;
 color: red;
 font-style: italic;
@@ -260,14 +267,14 @@ footer {
 
 
 /* /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
 	[class*="col-"] {width: 100%;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/*@media only screen and (min-width: 600px) {
   /* For tablets: */
-  .col-s-1 {width: 8.33%;}
+  /*.col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
   .col-s-4 {width: 33.33%;}
@@ -282,9 +289,9 @@ footer {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
  /* For desktop: */
-  .col-1 {width: 8.33%;}
+  /*.col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
   .col-4 {width: 33.33%;}
@@ -309,4 +316,4 @@ footer {
 [class*="col-"] {
 	float: left;
 	padding: 15px;
-} 
+} */
