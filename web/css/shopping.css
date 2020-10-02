@@ -58,6 +58,10 @@ h1 {
 	color: var(--color-yellow);
 }
 
+#total {
+	max-width: 80%;
+}
+
 .container {
 
 }
