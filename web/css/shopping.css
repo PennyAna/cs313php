@@ -32,7 +32,7 @@ footer {
 h1 {
 	font-size: 75px;
 	font-family: 'Aclonica';
-	color: var(--color-);
+	color: var(--color-violet);
 }
 .navbar {
 	background-color: var(--color-berry);
