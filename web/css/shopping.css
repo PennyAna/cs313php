@@ -11,6 +11,9 @@
 body {
 	background-color: var(--color-ltblue);
 }
+header {
+	color: var(--color-violet);
+}
 .navbar {
 	margin-bottom: 50px;
 	border-radius: 0;
