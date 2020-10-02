@@ -52,6 +52,7 @@
     <form id="buyForm0">
         <div class="container">
             <div class="row">
+                <!--item1-->
                 <div class="col-sm-4"id="item0" name="item[]" value="item0">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Name
@@ -67,6 +68,7 @@
                         </div>
                     </div>
                 </div>
+                <!--item2-->
                 <div class="col-sm-4" id="item1" name="item[]" value="item1">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Name
@@ -82,6 +84,7 @@
                         </div>
                     </div>
                 </div>
+                <!--item3-->
                 <div class="col-sm-4" id="item2" name="item[]" value="item2">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Name
@@ -99,6 +102,7 @@
         </div>
         <div class="container">
             <div class="row">
+                <!--item4-->
                 <div class="col-sm-4" id="item3" name="item[]" value="item3">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Name
@@ -114,6 +118,7 @@
                 </div>
             </div>
         </div>
+          <!--item5-->
         <div class="col-sm-4" id="item4" name="item[]" value="item4">
             <div class="panel panel-primary">
                 <div class="panel-heading">Name
@@ -127,6 +132,7 @@
                 </div>
             </div>
         </div>
+          <!--item6-->
         <div class="col-sm-4"id="item5" name="item[]" value="item5">
             <div class="panel panel-primary">
                 <div class="panel-heading">Name
@@ -143,6 +149,7 @@
     </form>
     <div class="container">
         <div class="row">
+            <!--carttotal-->
             <div class="col-sm-12" id="total" name="total" value="Total">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Total
@@ -154,19 +161,20 @@
                     </p>
                 </div>
             </div>
-        <script>function checkTotal() {
-            var table = document.getElementById("buyForm0");
-            var checks = table.getElementsByTagName("input");
-            var sum = 0;
-            for (i=0; i < checks.length; i++) {
-                if (checks[i].checked) {
-                sum = sum + parseFloat(checks[i].value);
+            <script>function checkTotal() {
+                var table = document.getElementById("buyForm0");
+                var checks = table.getElementsByTagName("input");
+                var sum = 0;
+                for (i=0; i < checks.length; i++) {
+                    if (checks[i].checked) {
+                    sum = sum + parseFloat(checks[i].value);
+                    }
                 }
-            }
-            document.getElementById("totalNum").innerHTML = sum.toFixed(2);
-            document.getElementById("totalNum").value = sum.toFixed(2);
-            }  
-        </script>
+                document.getElementById("totalNum").innerHTML = sum.toFixed(2);
+                document.getElementById("totalNum").value = sum.toFixed(2);
+                }  
+            </script>
+        </div>
     </div>
     <footer class="container-fluid text-center">
         <p>RestrainedChaos Inc.</p>
