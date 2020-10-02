@@ -31,7 +31,7 @@ Make sure to check:
 <div class="jumbotron">
 <div class="container text-center">
 <h1>Header</h1>
-<img id="" src="" alt="">
+<a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart"></span></a>
 <p></p>
 </div>
 </div>
@@ -54,10 +54,7 @@ Make sure to check:
 <ul class="nav navbar-nav navbar-right">
 <li><a href="#"><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
 <li><a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart">
-</span>Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
-<?php
-
-?>
+</span>Cart</a></li>
 </ul>
 </div>
 </div>

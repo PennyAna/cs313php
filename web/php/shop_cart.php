@@ -1,13 +1,3 @@
-<!--Your browse page should contain:
-    a link to view the cart
-    see all the items that are in their cart
-    Provide a way to remove individual items 
-    from the cart.
-
-The view cart page should have:
-     a link to return to the browse page 
-     for more shopping
-     a link to continue to the checkout page.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,7 +17,11 @@ The view cart page should have:
 <div class="jumbotron">
 <div class="container text-center">
 <h1>Header</h1>
-<img id="" src="" alt="">
+<a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><?=$cartNum;?></a>
+ <!--need php code for cart++/-->
+ <?php
+
+?>
 <p></p>
 </div>
 </div>
@@ -50,10 +44,14 @@ The view cart page should have:
 <ul class="nav navbar-nav navbar-right">
 <li><a href="#"><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
 <li><a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart">
-</span> Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
-<?php
+</span> Cart</a></li>
+<!--Provide a way to remove individual items 
+    from the cart.
+The view cart page should have:
+     a link to return to the browse page 
+     for more shopping
+     a link to continue to the checkout page.-->
 
-?>
 </ul>
 </div>
 </div>
