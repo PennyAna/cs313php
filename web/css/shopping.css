@@ -58,11 +58,11 @@ h1 {
 }
 
 .glyphicon {
-
+background-color: var(--color-yellow);
 }
 
 #cartCount {
-
+	background-color: var(--color-yellow);
 }
 
 .container-fluid {
@@ -114,7 +114,8 @@ row{
 }
 
 .button {
-
+color: var(--color-ltblue);
+background-color: var(--color-berry);
 }
 
 form {
