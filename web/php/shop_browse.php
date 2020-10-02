@@ -233,39 +233,39 @@ insert basket icon
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="Red Riding Hood Store">
-<meta name="keywords" content="Little Red Riding Hood, little red riding hood, granny, big bad wolf">
+<meta name="description" content="Store">
+<meta name="keywords" content="">
 <meta name="author" content="RestrainedChaos">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-<title>Reddest Maid</title>
+<title>Title</title>
 <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
 <link rel="stylesheet" type="text/css" href="./shopping.css"/>
 </head>
 <body>
 <div class="jumbotron">
 <div class="container text-center">
-<h1>Reddest</h1>
-<img id="RR1" src="Images/RR1.jpg" alt="Little Red Riding Hood, retold & illustrated by Trina Schart Hyman">
-<h1>Maid</h1>
-<p>Red Riding Hood Art and Collectibles</p>
+<h1>Header</h1>
+<img id="" src="" alt="">
+<h1>Header</h1>
+<p></p>
 </div>
 </div>
-<form id="cartCount method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<form id="cartCount" method="post" action="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <nav class="navbar navbar-inverse">
 <div class="container-fluid">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-<span class="icon-bar"</span>
-<span class=icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
 </button>
 <a class="navbar-brand" href="">Reddest Maid</a>
 </div>
 <div class="collapse navbar-collapse" id="myNavbar">
 <ul class="nav navbar-nav">
-<li class=active"><a href="#">Home</a></li>
+<li class="active"><a href="#">Home</a></li>
 <li><a href="#">Products</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
