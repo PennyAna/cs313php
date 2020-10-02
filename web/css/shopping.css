@@ -18,8 +18,12 @@ body {
 }
 
 .jumbotron { 
+	background-image: url(../images/sprinkle_vector.jfif);
 	margin-bottom: 0;
 	background-color: var(--color-pinkred);
+	background-repeat: repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 footer {
@@ -113,7 +117,7 @@ row{
 
 }
 
-.button {
+button {
 color: var(--color-ltblue);
 background-color: var(--color-berry);
 }
