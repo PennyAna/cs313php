@@ -43,7 +43,7 @@ Make sure to check:
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
-<a class="navbar-brand" href="">Nav</a>
+<a class="navbar-brand" href="#">Menu</a>
 </div>
 <div class="collapse navbar-collapse" id="myNavbar">
 <ul class="nav navbar-nav">
@@ -52,8 +52,8 @@ Make sure to check:
 <li><a href="#"><span class="glyphicon glyphicon-phone"></span>Contact</a></li>
 </ul>
 <ul class="nav navbar-nav navbar-right">
-<li><a href=""><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
-<li><a href="shop_browse.php"><span class="glyphicon glyphicon-shopping-cart">
+<li><a href="#"><span class="glyphicon glyphicon-user"></span>Your Account</a></li>
+<li><a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart">
 </span>Cart</a><?=$cartNum;?></li> <!--need php code for cart++-->
 <?php
 
