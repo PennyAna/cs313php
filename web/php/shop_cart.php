@@ -53,11 +53,11 @@
         </nav>
         <form id='confirm2' name='confirm2' action='confirm.php' method="post">
             <fieldset>
-                <legend>Cart</legend>    
-                <label for="name">Name</label>
+                <legend>Your Cart</legend>    
+                <label for="name">Name:  </label>
 			    <input type="text" placeholder="Name" id="name" name="name">
 			    <br>
-			    <label for="email">Email</label>
+			    <label for="email">Email:  </label>
 			    <input type="text" placeholder="Email Address" id="email" name="email">
 			    <br>
                 <p>Items in Cart: <br></p>
@@ -97,7 +97,7 @@
                         echo $cartItem . "<br>";
                         $cartNum++;
                         }
-                    echo "Total: ";
+                    echo "<br>Total:  ";
                     if (isset($_POST["total"])) 	
                         {echo $_POST["total"];}
                 ?>
