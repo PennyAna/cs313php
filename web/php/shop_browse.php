@@ -171,6 +171,11 @@
                         <p><input type="button" onclick="checkTotal()" value="Add to Cart">
                         </p>
                     </div>
+                    <p id= "creditdue">
+                        These products, 
+                        along with their names, photos, and descriptions,
+                        belong to <a href="https://www.fancysprinkles.com">
+                        Fancy Sprinkles</a></p>
                 </div>
                 <script>function checkTotal() {
                     var table = document.getElementById("buyForm0");
@@ -188,11 +193,6 @@
             </div>
         </div>
         <br>
-            <p id= "creditdue">
-            These products, 
-            along with their names, photos, and descriptions,
-            belong to <a href="https://www.fancysprinkles.com">
-            Fancy Sprinkles</a></p>
     </div>
     <footer class="footer">
         <p id="footertag">
