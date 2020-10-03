@@ -159,9 +159,9 @@
         </div>
     </form>
     <div class="container">
-        <div class="row-fluid">
+        <div class="row">
             <!--carttotal-->
-            <div class="span12" id="total" name="total" value="Total">
+            <div class="col-sm-12" id="total" name="total" value="Total">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Total
                     </div>
@@ -192,8 +192,10 @@
         <p id="footertag">
             RestrainedChaos Inc.
             <br>
-            These products, along with their names, photos, and descriptions, 
+            These products, 
             <br>
+            along with their names, photos, and descriptions,
+            <br> 
             belong to <a href="https://www.fancysprinkles.com">Fancy Sprinkles</a></p>
     </footer>
 </body>
