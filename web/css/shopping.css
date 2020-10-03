@@ -33,7 +33,7 @@ body {
 footer {
 	background-color: var(--color-teal);
 	padding: 25px;
-	position: absolute;
+	position: fixed;
   	bottom: 0;
   	max-width: 100%;
   	/* Set the fixed height of the footer here */
