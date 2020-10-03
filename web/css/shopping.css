@@ -36,7 +36,6 @@ footer {
 	position: absolute;
   	bottom: 0;
   	max-width: 100%;
-  	/* Set the fixed height of the footer here */
 }
 
 /* #RR1 {
@@ -57,7 +56,7 @@ h1 {
 }
 
 .panel-heading {
-	background-color: var(--color-berry) !important;
+	background-color: var(--color-violet) !important;
 }
 
 .navbar-brand {
