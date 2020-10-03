@@ -32,10 +32,10 @@ body {
 
 footer {
 	background-color: var(--color-teal);
-	padding: 25px;
+	/* padding: 25px;
 	position: absolute;
   	bottom: 0;
-  	max-width: 100%;
+  	max-width: 100%; */
 }
 
 /* #RR1 {
