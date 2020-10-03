@@ -18,6 +18,7 @@ body {
 .navbar {
 	margin-bottom: 50px;
 	border-radius: 0;
+	color: var(--color-teal);
 }
 
 .jumbotron { 
