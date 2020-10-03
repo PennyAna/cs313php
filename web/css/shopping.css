@@ -120,7 +120,8 @@ row{
 }
 
 .panel {
-	max-width: 500px;
+	max-width: 350px;
+	max-height: 500px;
 }
 
 .panel-body {
