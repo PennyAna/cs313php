@@ -161,7 +161,7 @@
     <div class="container">
         <div class="row">
             <!--carttotal-->
-            <div class="col-sm-12" id="total" name="total" value="Total">
+            <div class="col-sm-12 flex-sm-fill" id="total" name="total" value="Total">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Total
                     </div>
