@@ -16,12 +16,8 @@
 <body>
     <div class="jumbotron">
         <div class="container text-center">
-        <h1>Header</h1>
-        <a href="./shop_cart.php"><span class="glyphicon glyphicon-shopping-cart"></span><?=$cartNum;?></a>
-        <!--need php code for cart++/-->
-        <?php
-        ?>
-        <p></p>
+            <h1>Header</h1>
+            <p></p>
         </div>
     </div>
     <form id="cartCount" method="post" action="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
