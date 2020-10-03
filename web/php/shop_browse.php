@@ -24,11 +24,12 @@
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Menu</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Menu</a>
+                </div>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -41,7 +42,7 @@
                     <li><a href="shop_cart.php">
                         <span class="glyphicon glyphicon-shopping-cart"></span>   Cart</a><?=$cartNum;?></li>
                          <!--need php code for cart++--> <?php ?>
-                 </ul>
+                </ul>
             </div>
         </nav>
     </form>
@@ -112,33 +113,33 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-          <!--item5-->
-        <div class="col-sm-4" id="item4" name="item[]" value="item4">
-            <div class="panel panel-primary">
-                <div class="panel-heading">Name
+              <!--item5-->
+                <div class="col-sm-4" id="item4" name="item[]" value="item4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Name
+                        </div>
+                        <div class="panel-body"><img src="../images/firecracker.jpg" class="img-responsive" style="width:100%" alt="Image">
+                        </div>
+                        <div class="panel-footer">
+                            <p>Description</p>
+                            <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="10">$10.00
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="panel-body"><img src="../images/firecracker.jpg" class="img-responsive" style="width:100%" alt="Image">
-                </div>
-                <div class="panel-footer">
-                    <p>Description</p>
-                    <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="10">$10.00
-                    </p>
-                </div>
-            </div>
-        </div>
-          <!--item6-->
-        <div class="col-sm-4"id="item5" name="item[]" value="item5">
-            <div class="panel panel-primary">
-                <div class="panel-heading">Name
-                </div>
-                <div class="panel-body"><img src="../images/golden_eagle.jpg" class="img-responsive" style="width: 100%" alt="Image">
-                </div>
-                <div class="panel-footer">
-                    <p>Description</p>
-                    <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="10">$10.00
-                    </p>
+                <!--item6-->
+                <div class="col-sm-4"id="item5" name="item[]" value="item5">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Name
+                        </div>
+                        <div class="panel-body"><img src="../images/golden_eagle.jpg" class="img-responsive" style="width: 100%" alt="Image">
+                        </div>
+                        <div class="panel-footer">
+                            <p>Description</p>
+                            <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="10">$10.00
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -150,26 +151,27 @@
                 <div class="panel panel-primary">
                     <div class="panel-heading">Total
                     </div>
-                <div class="panel-footer">
-                    <p id="totalNum" name="totalNum">0.00
-                    </p>
-                    <p><input type="button" onclick="checkTotal()" value="Add to Cart">
-                    </p>
+                    <div class="panel-footer">
+                        <p id="totalNum" name="totalNum">0.00
+                        </p>
+                        <p><input type="button" onclick="checkTotal()" value="Add to Cart">
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <script>function checkTotal() {
-                var table = document.getElementById("buyForm0");
-                var checks = table.getElementsByTagName("input");
-                var sum = 0;
-                for (i=0; i < checks.length; i++) {
-                    if (checks[i].checked) {
-                    sum = sum + parseFloat(checks[i].value);
+                <script>function checkTotal() {
+                    var table = document.getElementById("buyForm0");
+                    var checks = table.getElementsByTagName("input");
+                    var sum = 0;
+                    for (i=0; i < checks.length; i++) {
+                        if (checks[i].checked) {
+                            sum = sum + parseFloat(checks[i].value);
+                        }
                     }
-                }
-                document.getElementById("totalNum").innerHTML = sum.toFixed(2);
-                document.getElementById("totalNum").value = sum.toFixed(2);
+                    document.getElementById("totalNum").innerHTML = sum.toFixed(2);
+                    document.getElementById("totalNum").value = sum.toFixed(2);
                 }  
-            </script>
+                </script>
+            </div>
         </div>
     </div>
     <footer class="container-fluid text-center">
