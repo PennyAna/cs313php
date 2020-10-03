@@ -12,7 +12,8 @@ Make sure to check:
 <?php 
 	$name = htmlspecialchars($_POST["name"]);
 	$email = htmlspecialchars($_POST["email"]);
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -40,7 +41,7 @@ Make sure to check:
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Menu</a>
+          <!-- <a class="navbar-brand" href="#">Menu</a> -->
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
@@ -72,8 +73,8 @@ Make sure to check:
         </div>
       </div>
     </nav>  
-    <footer>
-      <p>RestrainedChaos Inc.</p>
+    <footer class="footer">
+      <p id="footertags">RestrainedChaos Inc.</p>
     </footer>
   </body>
 </html>
