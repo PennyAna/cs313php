@@ -192,7 +192,7 @@
         </div>
     </div>
     <footer class="footer">
-        <p>RestrainedChaos Inc.</p>
+        <p id="footertag">RestrainedChaos Inc.</p>
     </footer>
 </body>
 </html>
