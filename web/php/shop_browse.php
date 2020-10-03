@@ -52,14 +52,16 @@
                 <!--item1-->
                 <div class="col-sm-4"id="item0" name="item[]" value="item0">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Nebula
                         </div>
                         <div class="panel-body">
-                            <p><img src="../images/nebula.jpg" class="img-responsive" style="width:100%" alt="Nebula Sprinkles">
+                            <p><img src="../images/nebulanew-680188_800x.jpg" class="img-responsive" style="width:100%" alt="Nebula Sprinkles">
                             </p>
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Take a trip to outer space with this galactic blend 
+                            of beautiful crunchy jimmies, stars, silver jimmies, 
+                            mini silver glitter stars, and teal beads. </p>
                             <p><input type="checkbox" id="price0" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
@@ -68,14 +70,16 @@
                 <!--item2-->
                 <div class="col-sm-4" id="item1" name="item[]" value="item1">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Animal Crackers
                         </div>
                         <div class="panel-body">
                             <p><img src="../images/animal_crackers.jpg" class="img-responsive" style="width: 100%" alt="Image">
                             </p>
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Animal crackers is an adorable take on the classic circus 
+                            cookie. Pastel pink crunchy jimmies are mixed with whites and 
+                            classic rainbow. Looks super cute on just about anything!</p>
                             <p><input type="checkbox" id="price1" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
@@ -84,12 +88,16 @@
                 <!--item3-->
                 <div class="col-sm-4" id="item2" name="item[]" value="item2">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Mermaid Cove
                         </div>
                         <div class="panel-body"><img src="../images/mermaid_code.jpg" class="img-responsive" style="width: 100%" alt="Image">
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Mermaid cove is a mermaid themed blend of rich colors 
+                            reminiscent of the sea. From the golden coins to the deep 
+                            green, blue, and teal accents, it's all as enticing as a 
+                            sea siren. Glitter stars and hexagons add an extra pop of 
+                            sparkle!</p>
                             <p><input type="checkbox" id="price2" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
@@ -102,12 +110,14 @@
                 <!--item4-->
                 <div class="col-sm-4" id="item3" name="item[]" value="item3">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Bubble Bath
                         </div>
                         <div class="panel-body"><img src="../images/bubblebath_720x.jpg" class="img-responsive" style="width: 100%;" alt="Image">
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Oh boy. Bubble bath is a bubbly, cutesy blend of all 
+                            pink and white beads in different sizes. It's so adorable, 
+                            you'll have to see it to believe it.</p>
                             <p><input type="checkbox" id="price3" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
@@ -116,12 +126,15 @@
               <!--item5-->
                 <div class="col-sm-4" id="item4" name="item[]" value="item4">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Firecracker
                         </div>
                         <div class="panel-body"><img src="../images/firecracker.jpg" class="img-responsive" style="width:100%" alt="Image">
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Firecracker is a patriotic explosion of red, white, 
+                            blue, and silver. This mix is packed with silver sugar 
+                            nuggets, crunchy jimmies, and edible silver glitter stars 
+                            + hexagons. It's a glitter bomb!</p>
                             <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
@@ -130,12 +143,16 @@
                 <!--item6-->
                 <div class="col-sm-4"id="item5" name="item[]" value="item5">
                     <div class="panel panel-primary">
-                        <div class="panel-heading">Name
+                        <div class="panel-heading">Golden Eagle
                         </div>
                         <div class="panel-body"><img src="../images/golden_eagle.jpg" class="img-responsive" style="width: 100%" alt="Image">
                         </div>
                         <div class="panel-footer">
-                            <p>Description</p>
+                            <p>Golden eagle is a spectacular display of american 
+                            pride! Red, white, and blue are combined with gold 
+                            elements such as gilded sugar nuggets, glitter stars, 
+                            and many different sized golden dragees for an epic, 
+                            boastful show.</p>
                             <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="10">$10.00
                             </p>
                         </div>
