@@ -14,7 +14,6 @@ body {
 }
 
 
-
 .navbar {
 	margin-bottom: 50px;
 	border-radius: 0;
@@ -44,12 +43,6 @@ body {
 	margin: 0px;
 	padding: 15px;
 }
-/* #RR1 {
-		border: 5px solid #470017;
-		border-radius: 50%;
-		width: 250px;
-		height: auto;
-} */
 
 a:link {
 	color: var(--color-ltblue);
@@ -93,75 +86,21 @@ h1 {
 	color: var(--color-yellow);
 }
 
-.container {
-
-}
-
-.glyphicon {
-}
-
-#cartCount {
-}
-
-.container-fluid {
-
-}
-
-.navbar-header {
-
-}
-
-.navbar-toggle {
-
-}
-
-.icon-bar {
-
-}
-
-.navbar-collapse {
-
-}
-
-.navbar-nav {
-
-}
-
-#buyForm0 {
-
-}
-
-row{
-
-}
-
 .col-sm-4 {
 	border-radius: 30px;
 }
 
 .col-sm-12 {
-
+	max-width: 100%;
 }
 
 .panel {
 	max-width: 400px;
 }
 
-.panel-body {
-
-}
-
-.panel-footer {
-
-}
-
 button {
 color: var(--color-ltblue);
 background-color: var(--color-berry);
-}
-
-form {
-
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -203,14 +142,17 @@ form {
   	.col-12 {width: 100%;}
 
 } 
+
 * {
 	box-sizing: border-box;
 }
+
 .row::after {
 	content: "";
 	clear: both;
 	display: table;
 }
+
 [class*="col-"] {
 	float: middle;
 	padding: 15px;
