@@ -30,7 +30,7 @@ body {
 	background-size: cover;
 }
 
-footer {
+.footer {
 	background-color: var(--color-teal);
 	bottom: 0;
 	/* padding: 25px;
