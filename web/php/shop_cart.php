@@ -101,6 +101,7 @@
                     if (isset($_POST["total"])) 	
                         {echo $_POST["total"];}
                 ?>
+                <br><br>
                 <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
             </fieldset>
         </form>
