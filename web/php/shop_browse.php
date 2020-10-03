@@ -9,48 +9,45 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Title</title>
+    <title>Sprinkle Heaven</title>
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
 </head>
 <body>
     <div class="jumbotron">
         <div class="container text-center">
-            <h1>Header</h1>
+            <h1>Sprinkle Heaven</h1>
             <p></p>
         </div>
     </div>
-    <form id="cartCount" method="post" action="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- <a class="navbar-brand" href="#"></a> -->
-                </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- <a class="navbar-brand" href="#"></a> -->
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="./shop_browse.php">   Home</a></li>
-                    <li><a href="./shop_browse.php"><span class="glyphicon glyphicon-tags"></span>   Products</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-phone"></span>   Contact</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span>   Your Account</a></li>
-                    <li><a href="shop_cart.php">
-                        <span class="glyphicon glyphicon-shopping-cart"></span>   Cart</a><?=$cartNum;?></li>
-                         <!--need php code for cart++--> <?php ?>
-                </ul>
-            </div>
-        </nav>
-    </form>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="./shop_browse.php">   Home</a></li>
+                <li><a href="./shop_browse.php"><span class="glyphicon glyphicon-tags"></span>   Products</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-phone"></span>   Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span>   Your Account</a></li>
+                <li><a href="shop_cart.php">
+                    <span class="glyphicon glyphicon-shopping-cart"></span>   Cart</a><?=$cartNum;?></li>
+            </ul>
+        </div>
+    </nav>
     <form id="buyForm0">
         <div class="container">
             <div class="row">
                 <!--item1-->
-                <div class="col-sm-4"id="item0" name="item[]" value="item0">
+                <div class="col-sm-4" id="item0" name="item[]" value="item0">
                     <div class="panel panel-primary">
                         <div class="panel-heading">Nebula
                         </div>
