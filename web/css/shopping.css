@@ -116,7 +116,7 @@ row{
 }
 
 .col-sm-12 {
-	max-width: 100%;
+	
 }
 
 .panel {
@@ -189,6 +189,6 @@ form {
 	display: table;
 }
 [class*="col-"] {
-	float: left;
+	float: middle;
 	padding: 15px;
 }
