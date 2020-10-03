@@ -51,6 +51,56 @@
                 </div>
             </div>
         </nav>
+        <form id='confirm2' name='confirm2' action='confirm.php' method="post">
+			<label for="name">Name</label>
+			<input type="text" placeholder="Name" id="name" name="name">
+			<br>
+			<label for="email">Email</label>
+			<input type="text" placeholder="Email Address" id="email" name="email">
+			<br>
+            <p>Items in Cart: <br></p>
+            <?php
+                //whitelist of valid options
+                $cartOptions = array(
+                    'price0', 
+                    'price1', 
+                    'price2', 
+                    'price3', 
+                    'price4', 
+                    'price5', 
+                    'price6', 
+                    'price7', 
+                    'price8', 
+                    'price9', 
+                    'price10', 
+                    'price11', 
+                    'price12', 
+                    'price13');
+                //empty array
+                $cart = array();
+                //if post var 'price' is valid array       
+                if(!empty($_POST['price']) && is_array($_POST['price'])) {
+                //loop thru array of checkbox values
+                    foreach ($_POST['price'] as $prices) {
+                    //make sure option is valid
+                        if(in_array($prices, $cartOptions)) {
+                    //add selected options to $cart array
+                    $cart[] = $price;
+                    }
+                    }
+                    }
+                var_dump($cart);
+                $cartNum = 0;
+                foreach ($cart as $cartItem) {
+                    echo $cartItem . "<br>";
+                    $cartNum++;
+                    }
+                echo "Total: ";
+                if (isset($_POST["total"])) 	
+                    {echo $_POST["total"];}
+            ?>
+            <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
+        </form>
         <script>function checkTotal() {
             var table = document.getElementById("buyForm0");
             var checks = table.getElementsByTagName("input");
@@ -66,41 +116,5 @@
         <footer class="footer">
             <p id="footertag">RestrainedChaos Inc.</p>
         </footer>
-        <?php
-        //whitelist of valid options
-            $cartOptions = array(
-                'price0', 
-                'price1', 
-                'price2', 
-                'price3', 
-                'price4', 
-                'price5', 
-                'price6', 
-                'price7', 
-                'price8', 
-                'price9', 
-                'price10', 
-                'price11', 
-                'price12', 
-                'price13'); 
-            //empty array
-            $cart = array();
-            //if post var 'price' is valid array       
-            if(!empty($_POST['price']) && is_array($_POST['price'])) {
-            //loop thru array of checkbox values
-                foreach ($_POST['price'] as $prices) {
-                //make sure option is valid
-		            if(in_array($prices, $cartOptions)) {
-                    //add selected options to $cart array
-                        $cart[] = $price;
-                    }
-                }
-            }
-            var_dump($cart);
-            $cartNum = 0;
-            foreach ($cart as $cartItem) {
-        	   $cartNum++;
-	        }
-	    ?>
     </body>
 </html>
