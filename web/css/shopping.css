@@ -17,6 +17,10 @@ body {
 	float: right;
 }
 
+#creditdue {
+	text-align: center;
+}
+
 .navbar {
 	margin-bottom: 50px;
 	border-radius: 0;
