@@ -40,6 +40,10 @@ body {
 	color: white;
 }
 
+.footer.p {
+	padding: 20px;
+}
+
 /* #RR1 {
 		border: 5px solid #470017;
 		border-radius: 50%;
