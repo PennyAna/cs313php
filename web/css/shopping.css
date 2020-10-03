@@ -32,9 +32,9 @@ body {
 
 footer {
 	background-color: var(--color-teal);
+	bottom: 0;
 	/* padding: 25px;
 	position: absolute;
-  	bottom: 0;
   	max-width: 100%; */
 }
 
