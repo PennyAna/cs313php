@@ -24,14 +24,14 @@ Make sure to check:
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Title</title>
+    <title>Sprinkle Heaven</title>
     <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
   </head>
   <body>
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>Header</h1>
+        <h1>Sprinkle Heaven</h1>
       </div>
     </div>
     <nav class="navbar navbar-inverse">
@@ -74,7 +74,7 @@ Make sure to check:
       </div>
     </nav>  
     <footer class="footer">
-      <p id="footertags">RestrainedChaos Inc.</p>
+      <p id="footertag">RestrainedChaos Inc.</p>
     </footer>
   </body>
 </html>

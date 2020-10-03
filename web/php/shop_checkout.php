@@ -16,15 +16,14 @@
               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-              <title>Title</title>
+              <title>Sprinkle Heaven</title>
               <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
               <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
        </head>
        <body>
               <div class="jumbotron">
                      <div class="container text-center">
-                            <h1>Header</h1>
-                            <p></p>
+                            <h1>Sprinkle Heaven</h1>
                      </div>
               </div>
               <nav class="navbar navbar-inverse">
@@ -104,7 +103,7 @@
                      <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
               </form>
               <footer class="footer">
-                     <p id="footertags">RestrainedChaos</p>
+                     <p id="footertag">RestrainedChaos</p>
               </footer>
        </body>
 </html>

@@ -17,7 +17,6 @@
     <div class="jumbotron">
         <div class="container text-center">
             <h1>Sprinkle Heaven</h1>
-            <p></p>
         </div>
     </div>
     <nav class="navbar navbar-inverse">
