@@ -191,7 +191,7 @@
             </div>
         </div>
     </div>
-    <footer class="container-fluid text-center">
+    <footer class="footer">
         <p>RestrainedChaos Inc.</p>
     </footer>
 </body>
