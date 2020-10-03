@@ -32,7 +32,11 @@ body {
 
 .footer {
 	background-color: var(--color-teal);
+	position: fixed;
+	left: 0;
 	bottom: 0;
+	width: 100%;
+	text-align: center;
 	/* padding: 25px;
 	position: absolute;
   	max-width: 100%; */
