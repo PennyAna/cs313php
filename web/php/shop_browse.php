@@ -1,3 +1,5 @@
+<!--add to cart == link to cart icon. When clicked, post to cart page.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -167,7 +169,7 @@
                     <div class="panel-footer">
                         <p id="totalNum" name="totalNum">0.00
                         </p>
-                        <p><input type="button" onclick="checkTotal()" value="Add to Cart">
+                        <p id="addcartbtn"><input type="button" onclick="checkTotal()" value="Add to Cart">
                         </p>
                     </div>
                     <p id= "creditdue">

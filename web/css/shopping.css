@@ -51,6 +51,14 @@ body {
 	padding: 15px;
 }
 
+#totalNum {
+	float: left;
+}
+
+#addcartbtn {
+	float: right;
+}
+
 #confirm2 {
 	text-align: middle;
 	float: center;
