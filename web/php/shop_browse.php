@@ -159,9 +159,9 @@
         </div>
     </form>
     <div class="container">
-        <div class="row">
+        <div class="row-fluid">
             <!--carttotal-->
-            <div class="col-sm-12 flex-sm-fill" id="total" name="total" value="Total">
+            <div class="span12" id="total" name="total" value="Total">
                 <div class="panel panel-primary">
                     <div class="panel-heading">Total
                     </div>
