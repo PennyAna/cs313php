@@ -187,16 +187,17 @@
                 </script>
             </div>
         </div>
+        <br>
+            <p id= "creditdue">
+            These products, 
+            along with their names, photos, and descriptions,
+            belong to <a href="https://www.fancysprinkles.com">
+            Fancy Sprinkles</a></p>
     </div>
     <footer class="footer">
         <p id="footertag">
             RestrainedChaos Inc.
-            <br>
-            These products, 
-            <br>
-            along with their names, photos, and descriptions,
-            <br> 
-            belong to <a href="https://www.fancysprinkles.com">Fancy Sprinkles</a></p>
+        </p>
     </footer>
 </body>
 </html>
