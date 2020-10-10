@@ -1,0 +1,17 @@
+CREATE TABLE genre (
+genreid SERIAL NOT NULL PRIMARY KEY, 
+genrename VARCHAR(100) NOT NULL UNIQUE);
+CREATE TABLE title (
+titleid SERIAL NOT NULL PRIMARY KEY, 
+titlename VARCHAR(255) NOT NULL UNIQUE, 
+titleinfo VARCHAR(255) NOT NULL
+genreid SERIAL NOT NULL);
+ALTER TABLE title 
+ADD FOREIGN KEY (genreid) REFERENCES genre(genreid);
+CREATE TABLE genretitle (
+genreid SERIAL NOT NULL PRIMARY KEY, 
+titleid SERIAL NOT NULL);
+ALTER TABLE genretitle
+ADD FOREIGN KEY (titleid) REFERENCES title(titleid);
+ALTER TABLE genretitle 
+ADD FOREIGN KEY (genreid) REFERENCES genre(genreid);
