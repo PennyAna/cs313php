@@ -4,8 +4,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Store">
-    <meta name="keywords" content="">
+    <meta name="description" content="Sprinkle Heaven">
+    <meta name="keywords" content="sprinkles, heaven, happiness, cake decorating, cupcake decorating, sugar">
     <meta name="author" content="RestrainedChaos">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -28,7 +28,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!-- <a class="navbar-brand" href="#"></a> -->
             </div>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
