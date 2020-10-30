@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="../js/shop.js"
         <title>Sprinkle Heaven</title>
         <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
         <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
@@ -105,18 +106,7 @@
                 <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
             </fieldset>
         </form>
-        <script>function checkTotal() {
-            var table = document.getElementById("buyForm0");
-            var checks = table.getElementsByTagName("input");
-            var sum = 0;
-            for (i=0; i < checks.length; i++) {
-                if (checks[i].checked) {
-                    sum = sum + parseFloat(checks[i].value);
-                }
-            }
-            document.getElementById("totalNum").innerHTML = sum.toFixed(2);
-            document.getElementById("totalNum").value = sum.toFixed(2);
-        }</script>            
+       
         <footer class="footer">
             <p id="footertag">RestrainedChaos Inc.</p>
         </footer>

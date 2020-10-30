@@ -1,0 +1,22 @@
+shop_browse.php
+	form buyForm0
+		TODO onblur/ifchecked for each panel routing to checkTotal()
+	div total
+		button addcartbtn
+			onclick=send to shop_cart.php with one last checkTotal
+shop_cart.php
+	form confirm2
+		action=send to confirm.php
+		php cart array, loop, fill, display
+		button submit formBtn onclick= send to shop_checkout.php
+		TODO checkboxes on displayed items
+		TODO js function to find checked, remove from array, redisplay (see checkTotal)
+shop_checkout.php
+	form confirm2 action=confirm.php
+		TODO php use cart array, loop, fill, display
+		TODO sep php file
+		button submit formBtn onclick= send to shop_confirm.php
+		TODO need customer info inputs
+shop_confirm.php
+	php display customer info from shop_checkout.php 
+	no TODO
