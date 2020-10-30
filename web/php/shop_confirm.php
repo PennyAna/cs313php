@@ -51,12 +51,13 @@
       <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
-            <!-- <?php 
+            <?php 
             $name = $_POST["name"];
             $email = $_POST["email"];
+            echo $name . " " . $email . "<br>";
             echo "bubbles<br>";
-            echo "<p> Order Number: " . (mt_rand(10, 1000)) . "<br>" . $name . ", thank you for your order! <br> You will receive a confirmation email at " $email . "! <br></p>";
-            ?> -->
+            //echo "<p> Order Number: " . (mt_rand(10, 1000)) . "<br>" . $name . ", thank you for your order! <br> You will receive a confirmation email at " $email . "! <br></p>";
+            ?>
         </div>
       </div>
     <footer class="footer">
