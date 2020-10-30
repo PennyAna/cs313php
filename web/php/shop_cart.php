@@ -59,7 +59,6 @@
                 <legend>Your Cart</legend>   
                 <p>Items in Cart: <br></p>
                 <?php
-
                     //whitelist of valid options
                     $cart = array();
                     //if post var 'price' is valid array       
