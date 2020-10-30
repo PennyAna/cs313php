@@ -83,7 +83,10 @@ a:hover {
 	background-color: transparent;
 	text-decoration: underline;
 }
-
+#sprinkleTitle.hover {
+	color: var(--color-teal);
+	text-decoration: none;
+}
 a:active {
 	color: var(--color-ltblue);
 	background-color: transparent;

@@ -19,7 +19,7 @@
     <div class="jumbotron">
         <div class="container text-center">
             <h1>
-                <a href="./shop_browse.php">
+                <a href="./shop_browse.php" id="sprinkleTitle">
                     Sprinkle Heaven
                     </a>
                 </h1>
