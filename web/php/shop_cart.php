@@ -65,11 +65,11 @@
                     //if post var 'price' is valid array       
                     if(!empty($_POST['price']) && is_array($_POST['price'])) {
                     //loop thru array of checkbox values
-                        foreach ($_POST['price'] as $names, $prices) {
+                        foreach ($_POST['price'] as $names) {
                         //make sure option is valid
-                            echo $names . " " .$prices . "bubbles <br>";
+                            echo ucfirst($names) . "bubbles <br>";
                             //add selected options to $cart array
-                            $cart[$names] = $prices;
+                            $cart[] = $names;
                             }
                         }
                     //var_dump($cart); 

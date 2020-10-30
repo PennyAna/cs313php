@@ -63,7 +63,7 @@
                             <p>Take a trip to outer space with this galactic blend 
                             of beautiful crunchy jimmies, stars, silver jimmies, 
                             mini silver glitter stars, and teal beads. </p>
-                            <p><input type="checkbox" id="price0" name="price[]" onchange="checkTotal()" value="nebula 10">$10.00
+                            <p><input type="checkbox" id="price0" name="price[]" onchange="checkTotal()" value="nebula">$10.00
                             </p>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                             <p>Animal crackers is an adorable take on the classic circus 
                             cookie. Pastel pink crunchy jimmies are mixed with whites and 
                             classic rainbow. Looks super cute on just about anything!</p>
-                            <p><input type="checkbox" id="price1" name="price[]" onchange="checkTotal()" value="cracker 10">$10.00
+                            <p><input type="checkbox" id="price1" name="price[]" onchange="checkTotal()" value="animal_crackers">$10.00
                             </p>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             green, blue, and teal accents, it's all as enticing as a 
                             sea siren. Glitter stars and hexagons add an extra pop of 
                             sparkle!</p>
-                            <p><input type="checkbox" id="price2" name="price[]" onchange="checkTotal()" value="mermaid 10">$10.00
+                            <p><input type="checkbox" id="price2" name="price[]" onchange="checkTotal()" value="mermaid_cove">$10.00
                             </p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                             <p>Oh boy. Bubble bath is a bubbly, cutesy blend of all 
                             pink and white beads in different sizes. It's so adorable, 
                             you'll have to see it to believe it.</p>
-                            <p><input type="checkbox" id="price3" name="price[]" onchange="checkTotal()" value="bubble 10">$10.00
+                            <p><input type="checkbox" id="price3" name="price[]" onchange="checkTotal()" value="bubble_bath">$10.00
                             </p>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                             blue, and silver. This mix is packed with silver sugar 
                             nuggets, crunchy jimmies, and edible silver glitter stars 
                             + hexagons. It's a glitter bomb!</p>
-                            <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="firework 10">$10.00
+                            <p><input type="checkbox" id="price4" name="price[]" onchange="checkTotal()" value="firecracker">$10.00
                             </p>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                             elements such as gilded sugar nuggets, glitter stars, 
                             and many different sized golden dragees for an epic, 
                             boastful show.</p>
-                            <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="eagle 10">$10.00
+                            <p><input type="checkbox" id="price5" name="price[]" onchange="checkTotal()" value="golden_eagle">$10.00
                             </p>
                         </div>
                     </div>
