@@ -61,36 +61,19 @@
                 <?php
 
                     //whitelist of valid options
-                    $cartOptions = array(
-                        'price0', 
-                        'price1', 
-                        'price2', 
-                        'price3', 
-                        'price4', 
-                        'price5', 
-                        'price6', 
-                        'price7', 
-                        'price8', 
-                        'price9', 
-                        'price10', 
-                        'price11', 
-                        'price12', 
-                        'price13');
-                    //empty array
                     $cart = array();
                     //if post var 'price' is valid array       
                     if(!empty($_POST['price']) && is_array($_POST['price'])) {
                     //loop thru array of checkbox values
-                        foreach ($_POST['price'] as $prices) {
+                        foreach ($_POST['price'] as $names, $prices) {
                         //make sure option is valid
-                            echo $prices . "bubbles <br>";
-                            if(in_array($prices, $cartOptions)) {
+                            echo $names . " " .$prices . "bubbles <br>";
                             //add selected options to $cart array
-                            array_push($cart, $prices);
+                            $cart[$names] = $prices);
                         }
                         }
                         }
-                    var_dump($cart); 
+                    //var_dump($cart); 
                     $cartNum = 0;
                     foreach ($cart as $cartItem) {
                         echo $cartItem . "<br>";
