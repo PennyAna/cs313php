@@ -1,15 +1,4 @@
-<!--After completing the purchase 
-from the checkout page, the user is shown: 
-    a confirmation page. It should:
-        display all the items they have just 
-        purchased as well as the address to 
-        which it will be shipped.
-
-Make sure to check: 
-    for malicious injection, 
-    especially from free-entry fields 
-    like the address.-->
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -55,12 +44,6 @@ Make sure to check:
                         <li><a href="./shop_cart.php">
                             <span class="glyphicon glyphicon-shopping-cart">
                             </span>   Cart</a></li>
-                <!--Provide a way to remove individual items 
-                from the cart.
-                The view cart page should have:
-                a link to return to the browse page 
-                for more shopping
-                a link to continue to the checkout page.-->
                     </ul>
                 </div>
             </div>
@@ -68,12 +51,12 @@ Make sure to check:
       <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
-            <?php 
+            <!-- <?php 
             $name = $_POST["name"];
             $email = $_POST["email"];
             echo "bubbles<br>";
             echo "<p> Order Number: " . (mt_rand(10, 1000)) . "<br>" . $name . ", thank you for your order! <br> You will receive a confirmation email at " $email . "! <br></p>";
-            ?>
+            ?> -->
         </div>
       </div>
     <footer class="footer">
