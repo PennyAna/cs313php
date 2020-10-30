@@ -63,19 +63,23 @@ Make sure to check:
           </ul>
         </div>
       </div>
+      </nav>
       <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
           <p>
             <?php 
+              echo "bubbles<br>";
+              /*
 	            echo "Order Number: " . (mt_rand(10, 1000)) . "<br>";
 	            echo $_POST["name"] . ", thank you for your order! <br> You will receive a confirmation email at ";
-	            echo $_POST["email"] . "! <br>";
+              echo $_POST["email"] . "! <br>";
+              */
             ?>
 	        </p>
         </div>
       </div>
-    </nav>  
+  
     <footer class="footer">
       <p id="footertag">RestrainedChaos Inc.</p>
     </footer>
