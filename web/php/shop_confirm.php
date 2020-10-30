@@ -66,7 +66,7 @@ Make sure to check:
           <p>
             <?php 
 	            echo "Order Number: " . (mt_rand(10, 1000)) . "<br>";
-	            echo $name . ", thank you for your order! <br> You will receive a confirmation email at ";
+	            echo $_POST["name"] . ", thank you for your order! <br> You will receive a confirmation email at ";
 	            echo $_POST["email"] . "! <br>";
             ?>
 	        </p>
