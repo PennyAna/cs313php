@@ -83,9 +83,9 @@
                     //loop thru array of checkbox values
                         foreach ($_POST['price'] as $prices) {
                         //make sure option is valid
+                            echo $prices . "bubbles <br>";
                             if(in_array($prices, $cartOptions)) {
                             //add selected options to $cart array
-                            echo $prices . "bubbles <br>";
                             array_push($cart, $prices);
                         }
                         }
