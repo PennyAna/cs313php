@@ -91,17 +91,4 @@
             <p id="footertag">RestrainedChaos Inc.</p>
         </footer>
     </body>
-    <script>
-    function checkTotal() {
-    var table = document.getElementById("buyForm0");
-    var checks = table.getElementsByTagName("input");
-    var sum = 0;
-    for (i=0; i < checks.length; i++) {
-        if (checks[i].checked) {
-            sum = sum + parseFloat(checks[i].value);
-        }
-    }
-    document.getElementById("totalNum").innerHTML = sum.toFixed(2);
-    document.getElementById("totalNum").value = sum.toFixed(2);
-}</script>
 </html>
