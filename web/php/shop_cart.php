@@ -53,13 +53,7 @@
         </nav>
         <form id='confirm2' name='confirm2' action='confirm.php' method="post">
             <fieldset>
-                <legend>Your Cart</legend>    
-                <label for="name">Name:  </label>
-			    <input type="text" placeholder="Name" id="name" name="name">
-			    <br>
-			    <label for="email">Email:  </label>
-			    <input type="text" placeholder="Email Address" id="email" name="email">
-			    <br>
+                <legend>Your Cart</legend>   
                 <p>Items in Cart: <br></p>
                 <?php
                     //whitelist of valid options
@@ -100,7 +94,14 @@
                     echo "<br>Total:  ";
                     if (isset($_POST["total"])) 	
                         {echo $_POST["total"];}
-                ?>
+                ?> 
+                <label for="name">Name:  </label>
+			    <input type="text" placeholder="Name" id="name" name="name">
+			    <br>
+			    <label for="email">Email:  </label>
+			    <input type="text" placeholder="Email Address" id="email" name="email">
+			    <br>
+                
                 <br><br>
                 <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
             </fieldset>
