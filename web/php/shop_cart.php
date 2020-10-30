@@ -69,9 +69,8 @@
                         //make sure option is valid
                             echo $names . " " .$prices . "bubbles <br>";
                             //add selected options to $cart array
-                            $cart[$names] = $prices);
-                        }
-                        }
+                            $cart[$names] = $prices;
+                            }
                         }
                     //var_dump($cart); 
                     $cartNum = 0;
