@@ -72,14 +72,8 @@
                             }
                         }
                     //var_dump($cart); 
-                    $cartNum = 0;
-                    foreach ($cart as $cartItem) {
-                        echo $cartItem . "<br>";
-                        $cartNum++;
-                        }
-                    echo "<br>Total:  ";
-                    if (isset($_POST["totalNum"])) 	
-                        {echo $_POST["totalNum"];}
+                    $cartTotal = $_POST['totalNum'];
+                    echo $cartTotal;
                 ?> 
                 <br><br>
                 <label for="name">Name:  </label>
