@@ -79,12 +79,8 @@ a:visited {
 }
 
 a:hover {
-	color: var(--color-yellow);
-	background-color: transparent;
-	text-decoration: underline;
-}
-#sprinkleTitle.hover {
 	color: var(--color-teal);
+	background-color: transparent;
 	text-decoration: none;
 }
 a:active {
