@@ -87,7 +87,7 @@
                         //make sure option is valid
                             if(in_array($prices, $cartOptions)) {
                         //add selected options to $cart array
-                        array_sum($cart) = $price;
+                         array_push($cart, $price);
                         }
                         }
                         }
