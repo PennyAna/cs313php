@@ -69,7 +69,8 @@ Make sure to check:
         <div id='content-wrap'>
           <p>
             <?php 
-              echo "bubbles<br>Order Number: " . (mt_rand(10, 1000)) . "<br>" . $_POST["name"] . ", thank you for your order! <br> You will receive a confirmation email at " $_POST["email"] . "! <br>";
+              echo "bubbles<br>";
+              echo "Order Number: " . (mt_rand(10, 1000)) . "<br>" . $_POST["name"] . ", thank you for your order! <br> You will receive a confirmation email at " $_POST["email"] . "! <br>";
             ?>
 	        </p>
         </div>
