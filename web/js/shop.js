@@ -1,4 +1,6 @@
 //shop_browse.php
+document.getElementsByName("price[]").onchange = checkTotal();
+document.getElementsByName("")
 function checkTotal() {
     var table = document.getElementById("buyForm0");
     var checks = table.getElementsByTagName("input");
@@ -12,7 +14,7 @@ function checkTotal() {
     document.getElementById("totalNum").value = sum.toFixed(2);
 }  
 //shop_cart.php
-function checkTotal() {
+/* function checkTotal() {
     var table = document.getElementById("buyForm0");
     var checks = table.getElementsByTagName("input");
     var sum = 0;
@@ -23,7 +25,7 @@ function checkTotal() {
     }
     document.getElementById("totalNum").innerHTML = sum.toFixed(2);
     document.getElementById("totalNum").value = sum.toFixed(2);
-}           
+}            */
 //shop_checkout.php
 
 //shop_confirm.php
