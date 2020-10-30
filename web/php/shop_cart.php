@@ -84,7 +84,7 @@
 			    <br>
                 
                 <br><br>
-                <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
+                <button type='submit' id='submit' name='formBtn' value='submit' action="./shop_confirm.php">Confirm Order</button>
             </fieldset>
         </form>
         <footer class="footer">
