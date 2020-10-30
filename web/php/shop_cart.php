@@ -73,7 +73,7 @@
                         }
                     //var_dump($cart); 
                     $cartTotal = $_POST['totalNum'];
-                    echo $cartTotal;
+                    echo "Total: " . $cartTotal;
                 ?> 
                 <br><br>
                 <label for="name">Name:  </label>
