@@ -78,8 +78,8 @@
                         $cartNum++;
                         }
                     echo "<br>Total:  ";
-                    if (isset($_POST["total"])) 	
-                        {echo $_POST["total"];}
+                    if (isset($_POST["totalNum"])) 	
+                        {echo $_POST["totalNum"];}
                 ?> 
                 <br><br>
                 <label for="name">Name:  </label>
