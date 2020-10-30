@@ -43,7 +43,7 @@
             </ul>
         </div>
     </nav>
-    <form id="buyForm0">
+    <form id="buyForm0" action="./shop_cart.php" method="POST">
         <div class="container">
             <div class="row">
                 <!--item1-->
@@ -157,31 +157,32 @@
                 </div>
             </div>
         </div>
-    </form>
-    <div class="container">
-        <div class="row">
-            <!--carttotal-->
-            <div class="col-sm-12" id="total" name="total" value="Total">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Total
-                    </div>
-                    <div class="panel-footer">
-                        <p id="totalNum" name="totalNum">0.00
-                        </p>
-                        <p id="addcartbtn">
-                            <input type="submit" onclick="" value="Add to Cart">
-                        </p>
-                    </div>
-                    <p id= "creditdue"><br>
-                        These products, 
-                        along with their names, photos, and descriptions,
-                        belong to <a href="https://www.fancysprinkles.com">
-                        Fancy Sprinkles</a></p><br>
+        <div class="container">
+            <div class="row">
+                <!--carttotal-->
+                <div class="col-sm-12" id="total" name="total" value="Total">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Total
+                        </div>
+                        <div class="panel-footer">
+                            <p id="totalNum" name="totalNum">0.00
+                            </p>
+                            <p id="addcartbtn">
+                                <input type="submit" value="Add to Cart">
+                            </p>
+                        </div>
+                    </div>            
                 </div>
             </div>
         </div>
-        <br>
-    </div>
+    </form>
+    <p id= "creditdue"><br>
+        These products, 
+        along with their names, photos, and descriptions,
+        belong to 
+        <a href="https://www.fancysprinkles.com">Fancy Sprinkles</a></p><br>   
+        <br>    
+    </p>
     <footer class="footer">
         <p id="footertag">
             RestrainedChaos Inc.
@@ -200,7 +201,8 @@ function checkTotal() {
     }
     document.getElementById("totalNum").innerHTML = sum.toFixed(2);
     document.getElementById("totalNum").value = sum.toFixed(2);
-}</script>
+}
+</script>
 </html>
 
 
