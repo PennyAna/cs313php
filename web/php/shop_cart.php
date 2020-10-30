@@ -86,7 +86,7 @@
                         }
                         }
                     var_dump($cart); 
-                    echo $cart . "<br>";       
+                    echo $cart . "bubbles <br>";       
                     $cartNum = 0;
                     foreach ($cart as $cartItem) {
                         echo $cartItem . "<br>";
