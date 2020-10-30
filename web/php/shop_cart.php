@@ -66,7 +66,7 @@
                     //loop thru array of checkbox values
                         foreach ($_POST['price'] as $names) {
                         //make sure option is valid
-                            echo ucfirst($names) . "bubbles <br>";
+                            echo ucfirst($names) . "<br>";
                             //add selected options to $cart array
                             $cart[] = $names;
                             }

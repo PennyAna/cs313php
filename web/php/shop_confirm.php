@@ -59,10 +59,9 @@ Make sure to check:
           </ul>
         </div>
       </div>
-      <header> <h1>Order Confirmation</h1> </header>
+      <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
-          <h2>Header</h2>
           <p>
             <?php 
 	            echo "Order Number: " . (mt_rand(10, 1000)) . "<br>";
