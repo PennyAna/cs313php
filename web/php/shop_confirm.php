@@ -51,13 +51,11 @@
       <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
-          <p> Order Number: <?php echo (mt(rand(10, 1000)));?>
-          <br>
-          <?php 
-            $name = $_POST["name"]
-            $email = $_POST["email"];
-            echo $name . ", thank your for your order! <br> You will receive a confirmation email at " . $email . "! <br>";
-            echo "bubbles<br>";
+          <p> Order Number: 
+            <?php 
+              echo "Order Number: " . (mt_rand(10, 1000)) . "<br>";
+              echo $name . ", thank you for your order! <br> You will receive a confirmation email at ";
+              echo $_POST["email"] . "! <br>";
             ?>
             </p>
         </div>
