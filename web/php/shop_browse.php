@@ -180,12 +180,9 @@
             </div>
         </div>
     </form>
-    <small><p id= "creditdue"><br>
-        These products, 
-        along with their names, photos, and descriptions,
-        belong to 
-        <a href="https://www.fancysprinkles.com">Fancy Sprinkles</a></p><br></small> 
-        <br>    
+    <small><p id= "creditdue">
+        These products, along with their names, photos, and descriptions,
+        belong to <a href="https://www.fancysprinkles.com">Fancy Sprinkles</a></p><br></small>    
     </p>
     <footer class="footer">
         <p id="footertag">
