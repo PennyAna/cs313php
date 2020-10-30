@@ -1,6 +1,5 @@
+TODO
 shop_browse.php
-	form buyForm0
-		TODO onblur/ifchecked for each panel routing to checkTotal()
 	div total
 		button addcartbtn
 			onclick=send to shop_cart.php with one last checkTotal
@@ -17,6 +16,23 @@ shop_checkout.php
 		TODO sep php file
 		button submit formBtn onclick= send to shop_confirm.php
 		TODO need customer info inputs
+COMPLETE
 shop_confirm.php
 	php display customer info from shop_checkout.php 
-	no TODO
+	no todo
+	shop_browse.php
+form buyForm0
+	todo onblur/ifchecked for each panel routing to checkTotal() 
+		-->already had onchange set up to trigger checkTotal
+		-->moved script to shop.js
+		-->could not move to shop.js without breaking and more work
+		-->script still w/in shop_browse.php
+		
+		
+<!--The checkout page should:
+    ask the user for the different components of 
+    their address. 
+    No credit card or other purchase information 
+    is collected, only an address.
+    the option to complete the purchase 
+    or return to the cart.-->
