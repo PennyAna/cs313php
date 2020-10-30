@@ -30,7 +30,6 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <!-- <a class="navbar-brand" href="#">Menu</a> -->
                 </div>
                  <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
@@ -60,6 +59,7 @@
                 <legend>Your Cart</legend>   
                 <p>Items in Cart: <br></p>
                 <?php
+
                     //whitelist of valid options
                     $cartOptions = array(
                         'price0', 
@@ -85,12 +85,12 @@
                         //make sure option is valid
                             if(in_array($prices, $cartOptions)) {
                             //add selected options to $cart array
+                            echo $prices . "bubbles <br>";
                             array_push($cart, $prices);
                         }
                         }
                         }
                     var_dump($cart); 
-                    echo $cart . "bubbles <br>";       
                     $cartNum = 0;
                     foreach ($cart as $cartItem) {
                         echo $cartItem . "<br>";
