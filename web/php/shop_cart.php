@@ -54,7 +54,7 @@
                 </div>
             </div>
         </nav>
-        <form id='confirm2' name='confirm2' action='confirm.php' method="post">
+        <form id='confirm2' name='confirm2' action='./shop_confirm.php' method="post">
             <fieldset>
                 <legend>Your Cart</legend>   
                 <p>Items in Cart: <br></p>
@@ -84,7 +84,7 @@
 			    <br>
                 
                 <br><br>
-                <button type='submit' id='submit' name='formBtn' value='submit' action="./shop_confirm.php">Confirm Order</button>
+                <button type='submit' id='submit' name='formBtn' value='submit'>Confirm Order</button>
             </fieldset>
         </form>
         <footer class="footer">
