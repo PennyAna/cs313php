@@ -80,8 +80,8 @@
                         foreach ($_POST['price'] as $prices) {
                         //make sure option is valid
                             if(in_array($prices, $cartOptions)) {
-                        //add selected options to $cart array
-                         array_push($cart, $price);
+                            //add selected options to $cart array
+                            array_push($cart, $prices);
                         }
                         }
                         }
@@ -95,6 +95,7 @@
                     if (isset($_POST["total"])) 	
                         {echo $_POST["total"];}
                 ?> 
+                <br><br>
                 <label for="name">Name:  </label>
 			    <input type="text" placeholder="Name" id="name" name="name">
 			    <br>
