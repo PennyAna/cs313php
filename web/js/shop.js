@@ -1,5 +1,5 @@
 //shop_browse.php
-document.getElementsByName("price[]").onchange = checkTotal();
+document.getElementsByName("price").onchange = checkTotal();
 document.getElementsByName("")
 function checkTotal() {
     var table = document.getElementById("buyForm0");

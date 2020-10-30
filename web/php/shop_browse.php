@@ -168,7 +168,8 @@
                     <div class="panel-footer">
                         <p id="totalNum" name="totalNum">0.00
                         </p>
-                        <p id="addcartbtn"><input type="button" onclick="checkTotal()" value="Add to Cart">
+                        <p id="addcartbtn">
+                            <input type="submit" onclick="" value="Add to Cart">
                         </p>
                     </div>
                     <p id= "creditdue"><br>
