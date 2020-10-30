@@ -69,13 +69,14 @@ Make sure to check:
         <div id='content-wrap'>
           <p>
             <?php 
-              echo "bubbles<br>";
-              echo "Order Number: " . (mt_rand(10, 1000)) . "<br>" . $_POST["name"] . ", thank you for your order! <br> You will receive a confirmation email at " $_POST["email"] . "! <br>";
+            $name = $_POST["name"];
+            $email = $_POST["email"];
+            echo "bubbles<br>";
+            echo "Order Number: " . (mt_rand(10, 1000)) . "<br>" . $name . ", thank you for your order! <br> You will receive a confirmation email at " $email . "! <br>";
             ?>
 	        </p>
         </div>
       </div>
-  
     <footer class="footer">
       <p id="footertag">RestrainedChaos Inc.</p>
     </footer>
