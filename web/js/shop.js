@@ -24,4 +24,6 @@ function checkTotal() {
     document.getElementById("totalNum").innerHTML = sum.toFixed(2);
     document.getElementById("totalNum").value = sum.toFixed(2);
 }           
-//
+//shop_checkout.php
+
+//shop_confirm.php

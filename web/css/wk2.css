@@ -102,6 +102,7 @@ h3 {
 	padding: 30px;
 	border-radius: 8px;
 	max-height: fit-content;
+	overflow: auto;
 }
 #delly {
 	max-width: 60%;
