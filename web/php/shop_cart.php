@@ -85,8 +85,8 @@
                         }
                         }
                         }
-                    var_dump($cart);
-                    console.log($cart);
+                    var_dump($cart); 
+                    echo $cart . "<br>";       
                     $cartNum = 0;
                     foreach ($cart as $cartItem) {
                         echo $cartItem . "<br>";
