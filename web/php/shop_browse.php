@@ -197,12 +197,12 @@
 function checkTotal() {
     var table = document.getElementById("buyForm0");
     var checks = table.getElementsByTagName("input");
-    var sum = checks.length * 10;
- /*    for (i=0; i < checks.length; i++) {
+    var sum = 0;
+     for (i=0; i < checks.length; i++) {
         if (checks[i].checked) {
-            sum = sum + parseFloat(checks[i].value);
+            sum = sum + 10;
         }
-    } */
+    } 
     document.getElementById("totalNum").innerHTML = sum.toFixed(2);
     document.getElementById("totalNum").value = sum.toFixed(2);
 }
