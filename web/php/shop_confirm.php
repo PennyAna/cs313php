@@ -9,61 +9,62 @@ Make sure to check:
     for malicious injection, 
     especially from free-entry fields 
     like the address.-->
-<?php 
-	$name = htmlspecialchars($_POST["name"]);
-	$email = htmlspecialchars($_POST["email"]);
-?>
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Store">
-    <meta name="keywords" content="">
-    <meta name="author" content="RestrainedChaos">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <title>Sprinkle Heaven</title>
-    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
-  </head>
-  <body>
-    <div class="jumbotron">
-      <div class="container text-center">
-      <h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Store">
+        <meta name="keywords" content="">
+        <meta name="author" content="RestrainedChaos">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Sprinkle Heaven</title>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="../css/shopping.css"/>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1>
                     <a href="./shop_browse.php">
                     Sprinkle Heaven
                     </a>
                 </h1>
-      </div>
-    </div>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <!-- <a class="navbar-brand" href="#">Menu</a> -->
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="./shop_browse.php">   Home</a></li>
-            <li><a href="./shop_browse.php"><span class="glyphicon glyphicon-tags"></span>   Products</a></li>
-            <li><a href="#">
-              <span class="glyphicon glyphicon-phone">
-              </span>   Contact</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span>   Your Account</a></li>
-            <li><a href="./shop_cart.php">
-              <span class="glyphicon glyphicon-shopping-cart">
-              </span>   Cart</a></li>
-          </ul>
-        </div>
-      </div>
-      </nav>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                 <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="./shop_browse.php">   Home</a></li>
+                        <li><a href="./shop_browse.php"><span class="glyphicon glyphicon-tags"></span>   Products</a></li>
+                        <li><a href="#">
+                            <span class="glyphicon glyphicon-phone">
+                            </span>   Contact</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span>   Your Account</a></li>
+                        <li><a href="./shop_cart.php">
+                            <span class="glyphicon glyphicon-shopping-cart">
+                            </span>   Cart</a></li>
+                <!--Provide a way to remove individual items 
+                from the cart.
+                The view cart page should have:
+                a link to return to the browse page 
+                for more shopping
+                a link to continue to the checkout page.-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
       <header> <h3>Order Confirmation</h3> </header>
       <div id='page-container'>
         <div id='content-wrap'>
