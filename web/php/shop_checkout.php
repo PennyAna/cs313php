@@ -16,7 +16,11 @@
        <body>
               <div class="jumbotron">
                      <div class="container text-center">
-                            <h1>Sprinkle Heaven</h1>
+                            <h1>
+                                   <a href="./shop_browse.php">
+                                   Sprinkle Heaven
+                                   </a>
+                            </h1>
                      </div>
               </div>
               <nav class="navbar navbar-inverse">
