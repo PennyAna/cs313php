@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #001738;
+}
+
+header h1 {
+  padding: 25px 20%;
+  color: #d4a97d;
+  margin: 0;
+  font-size: 3.15em
+}
+
+main {
+  padding: 0 20%;
+}
+
+h2.scrRef {
+  font-size: 2em;
+  color: rgb(90,90,90);
+  font-weight: 500;
+  text-align: center;
+}
+
+.scrRef {
+  font-size: 1.15em;
+  color: rgb(90,90,90);
+  font-weight: 500;
+}
+
+.scrCont {
+  font-size: 1.15em;
+  color: black;
+  font-weight: 300;
+}
+
+form {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.formButton {
+  background-color: #001738;
+  border: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  padding: 10px 20px;
+  margin: 0 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s
+}
+
+.formButton:hover{
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.inputDiv {
+  margin: 40px;
+}
+
+label, input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.scripture-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 1px solid #999999ff;
+  transition: 0.3s;
+}
+
+.scripture-card:hover {
+  box-shadow: 10px 10px 8px #888888;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
