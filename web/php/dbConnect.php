@@ -2,10 +2,7 @@ function get_db() {
     $db = NULL;
     try {
         //default Heroku Postgres configuration URL
-       
-        }
-        if (!isset($dbUrl) || empty($dbUrl)) {
-            $dbURL = getenv('DATABASE_URL');
+        $dbURL = getenv('DATABASE_URL');
         }
         //get var parts of DB connect from URL
         $dbopts = parse_url($dUrl);
