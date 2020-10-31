@@ -15,9 +15,9 @@
         <?php echo $scripturesList; $message = ""?>
         <form action="index.php" method="POST" enctype="multipart/form-data">
         <input type="hidden" name="action" value="search-view">
-        <?php if ($showButton){ echo "<a href='index.php?action=home' class='formButton'>Go Back</a>"; } ?>
+        <?php if ($showButton){ echo "<a href='index.php?action=home.php' class='formButton'>Go Back</a>"; } ?>
         <button class="formButton" type="submit">Search By Book</button>
-        <a href="index.php?action=addscripture" class="formbutton">Add Scripture</a>
+        <a href="index.php?action=addscripture.php" class="formbutton">Add Scripture</a>
     </form>
     </main>
 </body>
