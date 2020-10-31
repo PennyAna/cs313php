@@ -1,5 +1,5 @@
 function get_db() {
-    $db - NULL;
+    $db = NULL;
     try {
         //default Heroku Postgres configuration URL
         $dbURL = getenv('DATABASE_URL');
