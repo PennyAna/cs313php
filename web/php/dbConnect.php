@@ -1,7 +1,5 @@
 <?php
 function get_db() {
-   
-    Connecting to Postgres from PHP
 try
 {
   $dbUrl = getenv('DATABASE_URL');
