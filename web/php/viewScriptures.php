@@ -1,7 +1,3 @@
-<?php
-require "dbConnect.php";
-$db = get_db();
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +9,8 @@ $db = get_db();
 <h1>Scripture Resources</h1>   
 <div>
 <?php
+    require "dbConnect.php";
+    $db = get_db();
     $statement = $db->prepare("SELECT book, chapter, verse, content FROM scripture");
     $statement->execute();
     while($row = $statement->fetch(PDO::FETCH_ASSOC)){
