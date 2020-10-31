@@ -14,4 +14,7 @@ VALUES('Doctrine and Covenants', 93, 'He that keepeth his commandments receiveth
 INSERT INTO scripture(book, chapter, content, verse)
 VALUES('Mosiah', 16, 'He is the light and the life of the world; yea, a light that is endless, that can never be darkened; yeah, and also a life which is endless, that there can be no more death.',  9);
 INSERT INTO scripture(book, chapter, content, verse)
-VALUES('Doctrine and Covenants', 88, 'The light shineth in darkness, and the darkness comprehendeth it not; nevertheless, the day shall ocme when you shall comprehend even God, being quickened in him and by him.', 49);
+VALUES('Doctrine and Covenants', 88, 'The light shineth in darkness, and the darkness comprehendeth it not; nevertheless, the day shall come when you shall comprehend even God, being quickened in him and by him.', 49);
+
+CREATE USER ta_user WITH PASSWORD 'ta_pass';
+GRANT SELECT, INSERT, UPDATE ON scripture TO ta_user;
