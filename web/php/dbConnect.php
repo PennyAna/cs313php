@@ -1,3 +1,4 @@
+<?php
 function get_db() {
    
     Connecting to Postgres from PHP
@@ -20,3 +21,4 @@ catch (PDOException $ex)
 }
     return $db;
 }
+?>
