@@ -11,6 +11,7 @@
 <?php
     require "dbConnect.php";
     $db = get_db();
+    ?>
     $statement = $db->prepare("SELECT book, chapter, verse, content FROM scripture");
     $statement->execute();
     while($row = $statement->fetch(PDO::FETCH_ASSOC)){
@@ -20,7 +21,6 @@
         $content = $row['content'];
         echo "<p><strong>$book $chapter:$verse</strong> - \'$content\'</p>";
     }
-?>
 </div>
 </body>
 </html>
