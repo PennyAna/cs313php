@@ -48,10 +48,7 @@
                     <img id="delly" src="../images/reading.JPG" alt="Dyslexics can Read" class="img-thumbnail float-right">
 					<ul id="assigns">
 						<li><a href="./shop_browse.php">Week 3</a></li>
-						<li><a href="">Week 4</a></li>
-						<li><a href="">Week 5</a></li>
-						<li><a href="">Week 6</a></li>
-						<li><a href="">Week 7</a></li>
+						<li><a href="https://warm-everglades-85628.herokuapp.com/index.php">Week 7</a></li>
 						<li><a href="">Week 8</a></li>
 						<li><a href="">Week 9</a></li>
 						<li><a href="">Week 10</a></li>
